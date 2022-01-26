@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Queen's University Belfast, School of Psychology, Open Science Group"
+author: "Joost Dessing, Gary McKeown, Gillian Shorter, Matthew Rodger, Paul Toner, Lisa Graham-Wisner"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
