@@ -1,6 +1,6 @@
 --- 
 title: "Queen's University Belfast, School of Psychology, Open Science Group"
-author: "Joost Dessing, Gary McKeown, Gillian Shorter, Matthew Rodger, Paul Toner, Lisa Graham-Wisner" 
+author: "Joost Dessing, Gary McKeown, Gillian Shorter, Matthew Rodger, Paul Toner, Lisa Graham-Wisener" 
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -15,9 +15,16 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# About
+# Nature of the document
 
 This is a bookdown website intended to whole the developing documentation from the Open Science Group in the School of Psychology at Queen's University Belfast. It is a live and working document and will be updated as more materials become available.
+
+fig. \@ref(fig:my-fig)
+
+```{r my-fig, echo=FALSE, fig.align='center', fig.cap="QUB Psy Open Sci Hex"}
+knitr::include_graphics("images/QUBPsyOpenSci.png")
+```
+
 
 ## Usage 
 

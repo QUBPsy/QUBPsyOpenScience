@@ -1,8 +1,9 @@
+fig:my-fig
 fig:nice-fig
 tab:nice-tab
 eq:binom
 thm:tri
-about
+nature-of-the-document
 usage
 render-book
 preview-book
