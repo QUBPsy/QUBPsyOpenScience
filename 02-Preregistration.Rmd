@@ -1,34 +1,69 @@
 # Preregistration {#cross}
 
-Cross-references make it easier for your readers to find and link to elements in your book.
+The School of Psychology aspires for staff to preregister their research where appropriate. 
 
-## Chapters and sub-chapters
+ 
 
-There are two steps to cross-reference any heading:
+## What is preregistration?  
 
-1. Label the heading: `# Hello world {#nice-label}`. 
-    - Leave the label off if you like the automated heading generated based on your heading title: for example, `# Hello world` = `# Hello world {#hello-world}`.
-    - To label an un-numbered heading, use: `# Hello world {-#nice-label}` or `{# Hello world .unnumbered}`.
+Preregistration involves publishing detailed research protocol in version-controlled, time-stamped, openly accessible repositories prior to collecting any data. When preregistering a research protocol, researchers commit to a set of procedures in the public domain. For confirmatory research, these procedures should be appropriate for testing specific predictions of the study’s hypotheses. Time-stamped Open data will establish that data collection started after the research protocol was published, thus ensuring that any preregistered hypotheses and details of the data analyses cannot have been influenced by the data. Preregistration also reduces prevents undisclosed flexibility, which is known to affect replicability. 
 
-1. Next, reference the labeled heading anywhere in the text using `\@ref(nice-label)`; for example, please see Chapter \@ref(cross). 
-    - If you prefer text as the link instead of a numbered reference use: [any text you want can go here](#cross).
+## Benefits 
 
-## Captioned figures and tables
+More robust and transparent research: increased confidence in replicability 
 
-Figures and tables *with captions* can also be cross-referenced from elsewhere in your book using `\@ref(fig:chunk-label)` and `\@ref(tab:chunk-label)`, respectively.
+Clarity on dissociation between confirmatory and exploratory analyses  
 
-See Figure \@ref(fig:nice-fig).
+Clarity on plan for research team – a document to refer back to during data analyses 
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center', fig.alt='Plot with connected points showing that vapor pressure of mercury increases exponentially as temperature increases.'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+Avoiding any suggestion of benefiting from undisclosed flexibility 
 
-Don't miss Table \@ref(tab:nice-tab).
+Available as article type (Registered Reports), ensuring publication irrespective of results. 
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(pressure, 10), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+## Questions 
+
+Doesn’t preregistration stifle exploration and creativity? 
+
+No. Nothing prevents further exploration of the patterns within a dataset. Preregistration just ensures that this exploration is adequate identified as follow-up analyses.
+
+## Is it extra work? 
+
+Yes and no. Yes, preregistration typically involves a detailed research protocol, the details of which may take more time to iron out. However, since most research within Psychology requires an ethics application, which also involves a research protocol, so at least part of the information is already written down even within preregistration. Moreover, some time may be won back after data collection, especially because of the clarity of the plan.
+
+## Where to preregister? 
+
+Several online repositories have been created that are optimized for the practice of preregistration (e.g., version control, links to data). These differ in terms of the format, which can also depend on the type of research. Below, we list the main repositories, followed by an instructional video to help staff get started with preregistration on these portals. This list will likely be extended as we move forward.
+
+### AsPredicted.org
+
+AsPredicted.org provides a straightforward solution for this, particularly for quantitative research. It requires researchers to answer 10 questions about their research protocol, after which a pdf containing all the answers is saved on the website; researchers can control the visibility of the protocol (private or public).
+[AsPredicted.org](https://AsPredicted.org)
+
+- Mainly for quantitative research
+- Answer 10 questions about research protocol 
+- Answers saved as pdf website 
+- Researchers control the visibility (private or public).
+
+### Open Science Foundation | OSF Preregistration 
+
+The Open Science Framework is website dedicated to all aspects of Open Science. It is by far the most encompassing preregistration portal, allowing users to preregister their research protocol in a variety of formats, some of which are dedicated formats to specific types of research (e.g., quantitative, qualitative, systematic reviews, secondary data analyses).
+
+[OSF](https://osf.io)
+
+- Platform dedicated to Open Science. 
+- Variety of formats for specific types of research (e.g., quantitative, qualitative, systematic reviews, secondary data analyses) 
+
+ 
+### ClinicalTrials.gov 
+This is the well-known portal for preregistration of clinical trials.
+
+[ClinicalTrials.gov](https://ClinicalTrials.gov) 
+
+- Preregistration of clinical trials 
+
+### PROSPERO (york.ac.uk) 
+This website us dedicated to and thus optimized for preregistrations for systematic reviews.
+
+[NIHR PROSPERO](https://www.crd.york.ac.uk/prospero/)
+
+- Preregistration of systematic reviews 
