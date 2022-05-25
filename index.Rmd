@@ -15,7 +15,7 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# Background 
+# Background
 
 This is a bookdown website intended to whole the developing documentation from the Open Science Group in the School of Psychology at Queen's University Belfast. It is a live and working document and will be updated as more materials become available.
 
