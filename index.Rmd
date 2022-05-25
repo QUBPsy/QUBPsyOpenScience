@@ -32,7 +32,7 @@ knitr::include_graphics("images/QUBPsyOpenSci.png")
 These Open Science guidelines are written as an accessible guide to Open Science for academic and research staff in the School of Psychology, Queen’s University Belfast. However, they should also be helpful for professional service staff and students. In the spirit of Open Science, the guidelines are available for all including those from outside the institution. The following guide is a living document which will be continually updated to keep the information aligned with advances in Open Science, so it is best to refer to the most current version of the guidelines.  
 
 ## Equity and Diversity 
-
+ 
 Open Science emphasises transparency and integrity in accurate and truthful reporting of science. Being open and transparent at all stages and all levels of the scientific process improves all scientific fields. The principles and proposed practices of Open Science serve to expand the accessibility and inclusivity of research and the knowledge it creates. By making data, analysis methods, and other research materials available to all through online repositories, many of the barriers to participation in science for those outside of elite academic institutions are removed. In this sense, Open Science principles are aligned to enhancing equity in science and expanding the diversity of future research as a result. 
 
 ## Why is Open Science important? 
