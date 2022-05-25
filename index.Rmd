@@ -15,53 +15,30 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# Nature of the document
+# Background 
 
 This is a bookdown website intended to whole the developing documentation from the Open Science Group in the School of Psychology at Queen's University Belfast. It is a live and working document and will be updated as more materials become available.
 
-fig. \@ref(fig:my-fig)
+Figure. \@ref(fig:Figure1)
 
-```{r my-fig, echo=FALSE, fig.align='center', fig.cap="QUB Psy Open Sci Hex"}
+```{r Figure1, echo=FALSE, fig.align='center', fig.cap="QUB Psy Open Sci Hex", fig.asp = 0.7, fig.width = 6, out.width = '30%'}
 knitr::include_graphics("images/QUBPsyOpenSci.png")
 ```
 
+# Princples
 
-## Usage 
+## Kindness 
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+These Open Science guidelines are written as an accessible guide to Open Science for academic and research staff in the School of Psychology, Queen’s University Belfast. However, they should also be helpful for professional service staff and students. In the spirit of Open Science, the guidelines are available for all including those from outside the institution. The following guide is a living document which will be continually updated to keep the information aligned with advances in Open Science, so it is best to refer to the most current version of the guidelines.  
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+## Equity and Diversity 
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+Open Science emphasises transparency and integrity in accurate and truthful reporting of science. Being open and transparent at all stages and all levels of the scientific process improves all scientific fields. The principles and proposed practices of Open Science serve to expand the accessibility and inclusivity of research and the knowledge it creates. By making data, analysis methods, and other research materials available to all through online repositories, many of the barriers to participation in science for those outside of elite academic institutions are removed. In this sense, Open Science principles are aligned to enhancing equity in science and expanding the diversity of future research as a result. 
 
-## Render book
+## Why is Open Science important? 
 
-You can render the HTML version of this example book without changing anything:
+Open Science directly addresses the ‘replication crisis’ initially identified in the field of Psychology. This is where scientists were previously incentivised by the academic publishing system to report ‘false positive’ results which failed to replicate. In contrast, Open Science is a mindset to do what is right for science. There is increasing recognition of the value of Open Science practices which are being embedded within criteria, including but not limited to 1) open access publishing in high impact journals, 2) research funding, especially by national and international funders 3) the Research Excellent Framework, 4) academic job descriptions and progression 5) Higher Education teaching curricula.         
 
-1. Find the **Build** pane in the RStudio IDE, and
+## Open Science Practices 
 
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
-
-Or build the book from the R console:
-
-```{r, eval=FALSE}
-bookdown::render_book()
-```
-
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
-
-## Preview book
-
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
-
-```{r eval=FALSE}
-bookdown::serve_book()
-```
-
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+To help embed Open Science within the research culture of the School of Psychology, this guide will provide descriptions and practical advice on key Open Science practices. Section 1 will... 
