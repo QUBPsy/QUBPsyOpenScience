@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+book:
+  title: "QUBPsyOpenScience"
+  author: "Jane Doe"
+  date: "6/9/2022"
+  chapters:
+    - index.qmd
+    - Intro.qmd
+    - Preregistration.qmd
+    - Reproducibility.qmd
+    - OpenData.qmd
+    - Open-access_Publishing.qmd
+    - Ethics.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
