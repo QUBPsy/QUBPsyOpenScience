@@ -2,25 +2,35 @@ project:
   type: website
   output-dir: docs
 
-book:
+website:
   title: "QUBPsyOpenScience"
-  author: "Jane Doe"
+  author: "Joost Dessing, Lisa Graham-Wisener, Matthew Rodger, Gillian Shorter, Gary McKeown, Paul Toner, Tanja Gerlach, Thomas Schultze-Gerlach"
   date: "6/9/2022"
-  chapters:
-    - index.qmd
-    - Intro.qmd
-    - Preregistration.qmd
-    - Reproducibility.qmd
-    - OpenData.qmd
-    - Open-access_Publishing.qmd
-    - Ethics.qmd
-    - references.qmd
-
+  toc: true
+  server: shiny
+  navbar:
+    logo: images/QUBlogoWsmall.png
+    background: primary
+    right:
+      - href: index.qmd
+        text: Home
+      - intro.qmd
+      - preregistration.qmd
+      - ethics.qmd
+      - open_data.qmd
+      - open_materials.qmd
+      - open_source_formats.qmd
+      - reproducible_documents.qmd
+      - open-access_publishing.qmd
+      - references.qmd
+csl: apa.csl
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cerulean
+      - custom.scss
   pdf:
     documentclass: scrreprt
 
