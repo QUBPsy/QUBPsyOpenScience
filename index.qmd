@@ -1,0 +1,7 @@
+# Queen's University Belfast, School of Psychology, Open Science Group
+
+*Joost Dessing, Lisa Graham-Wisener, Matthew Rodger, Gillian Shorter, Gary McKeown, Paul Toner, Tanja Gerlach, Thomas Schultze-Gerlach* 
+
+This is a quarto website intended to hold the developing documentation from the Open Science Group in the School of Psychology at Queen's University Belfast. It is a live and working document and will be updated as more materials become available.
+
+![](images/QUBPsyOpenSci.png){fig-alt="HexStickerQUBPsyOpenSci" fig-align="center" width="350"}

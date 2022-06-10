@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.556">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>QUBPsyOpenScience – reproducible_documents</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <img src="./images/QUBlogoWsmall.png" alt="">
+    <span class="navbar-title">QUBPsyOpenScience</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./intro.html">Principles</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./preregistration.html">Preregistration</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./ethics.html">Ethics and Open Science</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./open_data.html">Open Data</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./open_materials.html">Open Materials</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./open_source_formats.html">Open-Source formats</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./reproducible_documents.html" aria-current="page">Reproducible Documents</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./open-access_publishing.html">Open-Access Publishing</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./references.html">References</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="reproducible-documents" class="level1">
+<h1>Reproducible Documents</h1>
+<section id="why-do-we-need-reproducible-documents" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-we-need-reproducible-documents">Why do we need reproducible documents?</h2>
+<p>Traditional workflows within science use many different kinds of tools. This requires careful recording of what happens at each step of the scientific process. Good laboratory notebook practices are a feature of many sciences but are not typically taught as part of a psychology curriculum. This combination within psychology of a lack of clear recording of data collection and analysis practices can lead to difficulties in retracing the steps that led to any given outcome in science. A traditional workflow in psychology may involve the design of research and preparation for ethical review using a word processor and perhaps some diagramming tools. This is followed by data collection on a different platform perhaps using pen and paper in a laboratory, but increasingly using automated platforms such as Qualtrics, PsychoPy, or jsPsych. Following this data is manipulated from the shape it comes from the platform and is wrangled into the right shape for analysis sometimes in a statistical program, but often using cut and paste techniques in Microsoft Excel or a similar spreadsheet program. The data is then analysed using some statistical software platform such SPSS, SAS, JASP, Jamovi or R. When the results are found these are extracted and the whole sequence is written up using some combination of a word processor—typically Microsoft Word—and perhaps some citation software such as Endnote or RefWorks.</p>
+<p>The problem with this approach is that it is not very reproducible, the steps are difficult to trace unless the researcher is inordinately meticulous with their recording and it is prone to untraceable errors.</p>
+<p>The solution is to create a reproducible document.</p>
+</section>
+<section id="what-are-reproducible-documents" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-reproducible-documents">What are reproducible documents?</h2>
+<p>Reproducible documents are a way of eliminating as many of these disparate steps as possible and maximising the recording of the steps that are taken along the research process. The goal is to streamline the research process while making it more transparent and reproducible. Ideally these documents will be made available for the scrutiny of other scientific researchers and the public, but there are many advantages to using reproducible documents as they make the process of conducting science more efficient and they make research much easier to pick up after the inevitable six month to year hiatuses that occur throughout the scientific process as projects go through their different stages and the myriad competing attention drawing factors of a professional researchers life fragment our time.</p>
+<p>We are not yet at a stage where all of the various platforms and processes can be accumulated into one work flow but we can do much better than the traditional approach.</p>
+<p>Typically a reproducible document is a combination of some word processing tools to create the document with mechanisms to insert computer code chunks that allow us to load, store, and manipulate data; conduct statistical and mathematical analysis; visualise the analysis producing tables and plots as part of the document output; and integrating with citation software to allow the easy creation of references.</p>
+</section>
+<section id="the-tools-of-reproducible-documents" class="level2">
+<h2 class="anchored" data-anchor-id="the-tools-of-reproducible-documents">The tools of reproducible documents</h2>
+<section id="document-preparation-tools" class="level3">
+<h3 class="anchored" data-anchor-id="document-preparation-tools">Document preparation tools</h3>
+<p>There are a range of preexisting computational technologies that can be brought together to enable these documents. The TeX and LaTeX systems are well established document preparation and typesetting systems (<a href="https://www.latex-project.org">latex-project</a>), these are aided by the use of Markdown (<a href="https://www.markdownguide.org">markdownguide.org</a>) which provides a very simple document markup language which the researcher uses to create the documents and pandoc (<a href="https://pandoc.org">pandoc.org</a>) which allows the same markdown document to be output to many different formats. One markdown document can be used to create websites, PDFs, Word documents, ePub books and many more. These represent the word processing part.</p>
+</section>
+<section id="code-chunks" class="level3">
+<h3 class="anchored" data-anchor-id="code-chunks">Code chunks</h3>
+<p>The computer chunks are comprised of various different languages that can be mixed and matched, the most commonly used languages are R and Python, but languages like Julia, Stan, Javascript, SQL, C, and Fortran.</p>
+<p>The current document is being written as a reproducible document using the RStudio software and I can include a code chunk in R</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">8</span>,<span class="dv">9</span>,<span class="dv">10</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">mean</span>(data)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5.5</code></pre>
+</div>
+</div>
+<p>or in python</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statistics</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> [<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">8</span>,<span class="dv">9</span>,<span class="dv">10</span>]</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> statistics.mean(data)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>5.5</code></pre>
+</div>
+</div>
+<p>Code chunks can be hidden and only the output produced which is useful when including any data wrangling code that you do not want to be seen in a finished output, of for creating tables and plots. The important thing is that the code remains visible in the source form of the document so it can be inspected if necessary and it stays in the one place with the end product document. You can see this process at work in <a href="#fig-airquality">Figure&nbsp;1</a>, which contains code included in the source document but hidden in the final document.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-airquality" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="reproducible_documents_files/figure-html/fig-airquality-1.png" class="img-fluid figure-img" width="672"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 1: Temperature and ozone level.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="citation-software" class="level3">
+<h3 class="anchored" data-anchor-id="citation-software">Citation software</h3>
+<p>Citation management and the automatic creation of a references section are important components of reproducible document systems. Most systems interact with pandoc, BibTeX, Zotero, Crossref, PubMed, and the DOI system to allow in text citations with automated References sections <span class="citation" data-cites="mckeown2013">(e.g. <a href="#ref-mckeown2013" role="doc-biblioref">McKeown, 2013</a>)</span>. This reference will appear in the References section automatically without any more work.</p>
+</section>
+<section id="version-control" class="level3">
+<h3 class="anchored" data-anchor-id="version-control">Version control</h3>
+<p>An important but optional companion technology to the creation of reproducible documents is the variety of version control software such as git or svn. Git is the currently most popular type of version control. Version control systems were developed to keep track of the various changes that were made to computer code and to allow variations of code to be made and merged into a single document and to allow collaboration by multiple coders without the danger of overwriting each other. This turns out to be handy when it comes to writing documents too, especially documents that contain code. Think of version control as a high powered and rigorous combination of “track changes” and backing up files. It is a solution to folders full of final final final versions of the same document. Git is a piece of software that sits on your local computer and controls the versions of your documents, but it has a companion in github that offers remote hosting of documents and enables collaboration between multiple contributors. You can see the code for this document at (<a href="https://github.com/QUBPsy/QUBPsyOpenScience">github.com/QUBPsy/QUBPsyOpenScience</a>).</p>
+</section>
+</section>
+<section id="reproducible-document-platforms" class="level2">
+<h2 class="anchored" data-anchor-id="reproducible-document-platforms">Reproducible Document Platforms</h2>
+<p>There are a variety of ways of creating reproducible documents. Here we will look at some of the options.</p>
+<section id="rstudio-and-r-markdown" class="level3">
+<h3 class="anchored" data-anchor-id="rstudio-and-r-markdown"><img src="images/RStudio.png" class="img-fluid" width="60"><img src="images/rmarkdownlogo.png" class="img-fluid" width="60"> RStudio and R Markdown</h3>
+<p>One of the two major pioneers of mechanisms to produce reproducible documents came from the combination of the R focused Integrated Development Environment (IDE) RStudio. RStudio started in 2011 to create an easy environment in which to write R code and install and manage R packages. In 2012 Yihui Xie introduced the knitr package to enable the creation of documents with code chunks embedded in them. Markdown become the most popular language to develop these documents and the rmarkdown package was introduced in 2014, and it became well embedded within the RSTudio IDE where a lot of effort was made to make the production of RMarkdown documents simple and easy. The kinds of documents that could be produced in RMarkdown, webpages and websites, pdf documents, Shiny web apps, journal articles, slides and presentations, and books.</p>
+<p>The R Markdown ecosystem is now quite mature and there are many packages that allow people to get up and running with many different aspects such as: the creation of quite sophisticated websites using RStudio and Github pages (with many other options); the creation of APA style manuscripts and journal articles using <a href="http://frederikaust.com/papaja_man/">papaja</a> (although this remains somewhat buggy); templates to aid in the creation of many different kinds of journal articles through rticles such as Elsevier, IEEE, Royal Society, Springer, PNAS journal templates (<a href="#tbl-rticlesjournals">Table&nbsp;1</a> provides a full list of journal abbreviations); full book creation in online, pdf and ePub formats using <a href="https://bookdown.org">bookdown</a> (see an example <a href="https://bookdown.org/yihui/rmarkdown/">here</a>); various kinds of presentations (Powerpoint, Beamer, Slidy); dashboards using the flexdashboard package; and interactive documents incorporating Shiny web apps and html widgets.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-rticlesjournals" class="anchored">
+<table class="table table-sm table-striped">
+<caption>Table 1: The abbreviations for the R Markdown journal article templates avaialble in the rticles R package.</caption>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">acm</td>
+<td style="text-align: center;">frontiers</td>
+<td style="text-align: center;">oup_v1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">acs</td>
+<td style="text-align: center;">glossa</td>
+<td style="text-align: center;">peerj</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">aea</td>
+<td style="text-align: center;">ieee</td>
+<td style="text-align: center;">pihph</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">agu</td>
+<td style="text-align: center;">ims</td>
+<td style="text-align: center;">plos</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ajs</td>
+<td style="text-align: center;">informs</td>
+<td style="text-align: center;">pnas</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">amq</td>
+<td style="text-align: center;">iop</td>
+<td style="text-align: center;">rjournal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ams</td>
+<td style="text-align: center;">isba</td>
+<td style="text-align: center;">rsos</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">arxiv</td>
+<td style="text-align: center;">jasa</td>
+<td style="text-align: center;">rss</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">asa</td>
+<td style="text-align: center;">jedm</td>
+<td style="text-align: center;">sage</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">bioinformatics</td>
+<td style="text-align: center;">joss</td>
+<td style="text-align: center;">sim</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">biometrics</td>
+<td style="text-align: center;">jss</td>
+<td style="text-align: center;">springer</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">copernicus</td>
+<td style="text-align: center;">lipics</td>
+<td style="text-align: center;">tf</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ctex</td>
+<td style="text-align: center;">mdpi</td>
+<td style="text-align: center;">trb</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">elsevier</td>
+<td style="text-align: center;">mnras</td>
+<td style="text-align: center;">wellcomeor</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="jupyterlab-jupyter-notebooks-and-python" class="level3">
+<h3 class="anchored" data-anchor-id="jupyterlab-jupyter-notebooks-and-python"><img src="images/squarelogo-greytext-orangebody-greymoons.png" class="img-fluid" width="60"> JupyterLab, Jupyter Notebooks and Python</h3>
+<p>Another option for creating reproducible documents that has its origins in the Python computer language ecosystem is Jupyter Notebooks. Typically these require knowledge of the Python programming language and comfort working in a command line environment such as terminals in Unix environments and Windows Terminal in Windows 10 and above (previously the Windows Console).</p>
+<p>A Jupyter Notebook is a reproducible document that normally sits in a folder on your computer and you interact with using an interface in your browser. You navigate to the appropriate folder in your terminal and type “jupyter notebook” and this opens your browser and browser window that allows you to interact with the document. Documents contain a mix of text and code. The is a classic Jupyter Notebook interface and a more advanced IDE style interface known as JupyterLab. There are online servers that will allow you to interact with Jupyter Notebooks without the need to install software and have a dedicated machine, some of these can be seen at the Jupyter project: <a href="https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb">classic interface</a>, <a href="https://jupyter.org/try-jupyter/lab/">JupyterLab interface</a>. Similarly to RStudio even though they started firmly focused on one language—Python—but they also realised the value in supporting multiple languages and allowing them to be used interchangeably, they now support about 40 languages including R (<a href="https://mybinder.org/v2/gh/binder-examples/r/HEAD?filepath=index.ipynb">R in a Jupyter Notebook</a>).</p>
+</section>
+<section id="quarto" class="level3">
+<h3 class="anchored" data-anchor-id="quarto"><img src="images/Quartologo.png" class="img-fluid" width="60">Quarto</h3>
+<p>The two previous reproducible document approaches showed a trend from focusing on a single language towards reproducible documents that are more flexible. Recently the people at RStudio have announced that they have taken this a step further with the development of <a href="https://quarto.org">Quarto</a>, Quarto is a reproducible document system again built on Pandoc allowing documents to be created using Markdown or Jupyter Notebooks. Quarto is installed independently of the other systems as separate software on the computer and then each of the systems interface with it. Reproducible documents can then be created in a text editor, RStudio, Jupyter Notebooks or VS Code (Microsoft’s Visual Studio Code IDE). The goal is to make the document production part of the system agnostic to the way in which people prefer to work. As it is being spearheaded by RStudio it is likely to supersede the current R Markdown ecosystem (although R Markdown will be around for a long time). In producing Quarto the Rstudio team have taken the opportunity to make some of the issues that existed with R Markdown better and they seek to make a more unified system for developing each of the different styles of output. It is still in its infancy but I expect that it will quickly become the standard within the R ecosystem at least. This current book/website hybrid has been created using Quarto, although it’s very first incarnation was as a R Markdown Bookdown project.</p>
+</section>
+<section id="vs-code" class="level3">
+<h3 class="anchored" data-anchor-id="vs-code"><img src="images/vscode_icon.png" class="img-fluid" width="60"> VS Code</h3>
+<p>Microsoft’s Visual Studio Code is an IDE that is used by many people who do development within the Windows ecosystem. With the arrival of Quarto it can now be used as an environment for developing reproducible documents. It requires the addition of a Code Extension. This may be useful if you are already a user of VS Code otherwise the Rstudio IDE is probably a better place to start.</p>
+
+
+
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
+<div id="ref-mckeown2013" class="csl-entry" role="doc-biblioentry">
+McKeown, G. J. (2013). The Analogical Peacock Hypothesis: The Sexual Selection of Mind-Reading and Relational Cognition in Human Communication. <em>Review of General Psychology</em>, <em>17</em>(3), 267–287. <a href="https://doi.org/10.1037/a0032631">https://doi.org/10.1037/a0032631</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
