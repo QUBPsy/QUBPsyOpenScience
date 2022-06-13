@@ -13,7 +13,7 @@ Making the data that underlies the inferences and conclusions in our studies ava
 ## Questions
 
 ### Should all data be shared?
-No. A commonly used phrasing is “Be as open as possible, as closed as necessary”. If you cannot anonymize your data, sharing may not be needed or possible (unless explicitly consented by the participants). Moreover, sharing of data (or materials) may be constrained by considerations of intellectual property. 
+No. A commonly used phrasing is “Be as open as possible, as closed as necessary”. If you cannot anonymize your data, sharing may not be possible (unless explicitly consented by the participants). Moreover, sharing of data (or materials) may be constrained by considerations of intellectual property. The wishes of participants who take part in research should take precedence; if they do not want their data to be shared, we must respect those wishes.
 
 ### Is it extra work?
 Yes. Many of the repositories require creating an account. Moreover, while uploading data nowadays typically is a drag-and-drop exercise, FAIR principles mean the data should be organized logically and accompanied by metadata. However, with data accessibility in mind, many of these aspects can be introduced early in the research cycle to minimize the time needed.
