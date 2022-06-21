@@ -10,13 +10,10 @@ Open data supports the inferences and conclusions from our studies and enables o
 
 ## What are the benefits of open data? 
 
--   Maximizing transparency to promote repproducibility 
+-   Maximizing transparency to promote reproducibility 
 
 -   Maximizing usefulness of recorded data for the public good 
 
-```{=html}
-<!-- -->
-```
 -   Reducing the file-drawer phenomenon: increasing efficiency 
 
 -   In combination with preregistration it avoids suggestions of benefiting from undisclosed flexibility 
@@ -81,11 +78,11 @@ FAIR principles should motivate us to organize the data logically and accompany 
 
  
 
-Use the DOI in your manuscript as you submit to a journal to illustrate where your data is sourced. You may also want to do this with your open materials. 
+Use the DOI in your manuscript as you submit to a journal to illustrate where your data is sourced. You may also want to do this with your [Open Materials](https://qubpsy.github.io/QUBPsyOpenScience/open_materials.html). 
 
  
 
-5.  **Set access rulesand encourage others to engage with your work** 
+5.  **Set access rules and encourage others to engage with your work** 
 
  
 
@@ -113,7 +110,7 @@ There are many ways to make data open. QUB offers researchers to share their res
 
 -   Multiple server locations 
 
--   Example \[LINK\] 
+-   Example: [Reid & Dessing, 2018](https://osf.io/n4yjr/) 
 
  
 
@@ -129,24 +126,24 @@ Beyond that, the following online data repositories are frequently used in our f
 
 [Research Box](https://researchbox.org/)  
 
--   Mirroring AsPredicted.org 
+-   Mirroring [AsPredicted.org](https://aspredicted.org/) 
 
 -   Data and materials archive 
 
  
 
-For an overview of different online data repositories, see https://www.re3data.org/? 
+For an overview of different online data repositories, see [https://www.re3data.org/](https://www.re3data.org/) 
 
  
 
 ## Questions 
 
-Should all data be shared? 
+*Should all data be shared?* 
 
 No. A commonly used phrasing is "Be as open as possible, as closed as necessary". If you cannot anonymize your data, sharing may not be possible (unless explicitly consented by the participants). Moreover, sharing of data (or materials) may be constrained by considerations of intellectual property.  
 
  
 
-## Is it extra work? 
+*Is it extra work?* 
 
 Yes. Many of the repositories require creating an account. Moreover, while uploading data nowadays typically is a drag-and-drop exercise, proper organization of the data using [FAIR principles](https://www.go-fair.org/fair-principles/) will take some time. 

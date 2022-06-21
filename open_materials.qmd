@@ -6,7 +6,7 @@
 
 ## What are Open Materials? 
 
-Open Materials refer to the public sharing of materials used in our research. This can refer to any materials used in the study: information (e.g., questionnaires), code, \[description of\] experimental set-ups. Just like Open Data, the sharing of materials greatly promotes reproducibility. Moreover, Open Materials increases efficiency in science, since it allows researchers to benefit from efforts of others. Sharing of code underlying data analyses together with Open Data helps other to verify the validity of any inferences/conclusions; this can include detection of issues with computer code. [FAIR principles](https://www.go-fair.org/fair-principles/) are again an important guidance here: **F**indability, **A**ccessibility, **I**nteroperability and **R**euse.  
+Open Materials refer to the public sharing of materials used in our research. This can refer to any materials used in the study: information (e.g., questionnaires), code, \[description of\] experimental set-ups. Just like [Open Data](https://qubpsy.github.io/QUBPsyOpenScience/open_data.html), the sharing of materials greatly promotes reproducibility. Moreover, Open Materials increases efficiency in science, since it allows researchers to benefit from efforts of others. Sharing of code underlying data analyses together with Open Data helps other to verify the validity of any inferences/conclusions; this can include detection of issues with computer code. [FAIR principles](https://www.go-fair.org/fair-principles/) are again an important guidance here: **F**indability, **A**ccessibility, **I**nteroperability and **R**euse.  
 
  
 
@@ -30,9 +30,8 @@ You can share any materials you used in the research process as long as you have
 
 -   Computer code used to generate any materials or stimuli for the study 
 
-```{=html}
 <!-- -->
-```
+
 -   Analysis input and output 
 
 -   Blank questionnaires or interview schedules 
@@ -97,7 +96,7 @@ FAIR principles should motivate us to organize the materials logically and accom
 
  
 
-Use the DOI in your manuscript as you submit to a journal to illustrate where your open materials are sourced. You may be able to describe the materials in the section in the manuscript or it may be useful to link to an overarching page e.g., on the open science framework which represents the project where space is limited. 
+Use the DOI in your manuscript as you submit to a journal to illustrate where your open materials are sourced. You may be able to describe the materials in the section in the manuscript or it may be useful to link to an overarching page (e.g., on the [Open Science Framework](https://osf.io/)), which represents the project where space is limited. 
 
  
 
@@ -133,9 +132,8 @@ Beyond that, several online repositories are available for sharing materials. 
 
 -   Mirroring AsPredicted.org 
 
-```{=html}
 <!-- -->
-```
+
 -   Data and materials archive 
 
  
@@ -146,9 +144,8 @@ Beyond that, several online repositories are available for sharing materials. 
 
 -   Multiple server locations 
 
-```{=html}
 <!-- -->
-```
+
 -   Can host the information in one place. 
 
  
@@ -165,12 +162,12 @@ Beyond that, several online repositories are available for sharing materials. 
 
 ## Questions 
 
-### Should all materials be shared? 
+*Should all materials be shared?* 
 
 No. If materials are already publicly accessible, there is no need to share this again. Moreover, some materials may not be published because of copyright or intellectual property restrictions, or future potential thereof. Ethical or safety concerns may also apply, particularly in the development stage (e.g., for treatments). 
 
- 
 
-### Is it extra work? 
 
-Yes. Many of the repositories require creating an account. Moreover, while uploading materials nowadays typically is a drag-and-drop exercise, FAIR principles should motivate us to organize these logically and accompany it by descriptors. 
+*Is it extra work?* 
+
+Yes. Many of the repositories require creating an account. Moreover, while uploading materials nowadays typically is a drag-and-drop exercise, [FAIR principles](https://www.go-fair.org/fair-principles/) should motivate us to organize these logically and accompany it by descriptors. 

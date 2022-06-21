@@ -2,7 +2,7 @@
 
 ## What are Open-Source formats?
 
-Much of science relies on computers and software. Many of the traditionally used software is commercial and thus requires a license. The cost for such licenses is a barrier to opening science, since not all institutes or labs will be able to afford the same licenses. This means some researchers might not be able to verify the conclusions of others, or benefit from their shared materials. The use of Open-Source formats aims to prevent this and contribute to data being interoperable (see Open Data). This involves ensuring data is shared in formats accessible by Open-source software, which can of course be achieved by using Open-source software as much possible throughout the research process.
+Much of science relies on computers and software. Many of the traditionally used software is commercial and thus requires a license. The cost for such licenses is a barrier to opening science, since not all institutes or labs will be able to afford the same licenses. This means some researchers might not be able to verify the conclusions of others, or benefit from their shared materials. The use of Open-Source formats aims to prevent this and contribute to data being interoperable (see [Open Data](https://qubpsy.github.io/QUBPsyOpenScience/open_data.html)). This involves ensuring data is shared in formats accessible by Open-source software, which can of course be achieved by using Open-source software as much possible throughout the research process.
 
 ## Benefits of open source formats
 

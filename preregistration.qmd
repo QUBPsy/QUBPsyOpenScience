@@ -2,38 +2,31 @@
 
 **The School of Psychology encourages staff to preregister their research as standard.** 
 
-## What is preregistration? 
+What is preregistration? 
 
-Preregistration involves publishing your plans in a protocol for research before you conduct the research. This preregistration should be version-controlled, time-stamped, and deposited in a publicly accessible repository. It ensures that any change to the research plans or protocol can be traced, which disincentivizes presenting a changed protocol as the original, intended protocol. The more detailed the preregistered protocol, the more preregistration prevents results being influenced -- even inadvertently -- by undisclosed flexibility in research practices, which is known to affect replicability. Most pre-registered information should include the following: 
+[Preregistration](https://www.pnas.org/doi/10.1073/pnas.1708274114) involves publishing your plans in a protocol for research before you conduct the research. This preregistration should be version-controlled, time-stamped, and deposited in a publicly accessible repository. It ensures that any change to the research plans or protocol can be traced, which disincentivizes presenting a changed protocol as the original, intended protocol. The more detailed the preregistered protocol, the more preregistration prevents results being influenced -- even inadvertently -- by undisclosed flexibility in research practices, which is known to affect replicability. Most pre-registered information should include the following: 
 
 1.  A statement of the hypotheses/research questions being assessed 
 
-```{=html}
 <!-- -->
-```
+
 2.  A clear methodology which can be replicated by other researchers 
 
-```{=html}
 <!-- -->
-```
+
 3.  The key variables that will be measured and/or theoretical lens by which information will be viewed 
 
-```{=html}
 <!-- -->
-```
+
 4.  An indication of the intended sample size (ideally justified with a power analysis for quantitative research) and how this will be obtained (recruitment/retention plans) 
 
-```{=html}
 <!-- -->
-```
+
 5.  A detailed description of the analysis that will be conducted 
-```{=html}
+
 <!-- -->
-```
 
-
-## What are the benefits of preregistration? 
-
+What are the benefits of preregistration? 
 
 -   More robust and transparent research: increased trustworthiness and confidence in replicability  
 
@@ -41,30 +34,28 @@ Preregistration involves publishing your plans in a protocol for research before
 
 -   Clarity on plan for research team -- a document to guide data analyses  
 
-```{=html}
 <!-- -->
-```
+
 -   Avoiding any suggestion of benefiting from undisclosed flexibility  
 
 -   Available as article type (Registered Reports), ensuring publication of confirmatory science irrespective of results  
 
--   Researchers are being criticized for P-hacking (reporting only significant findings) and HARKing (hypothesising after the results are known) within scientific research; through preregistration we can illustrate that we do not engage in these practices 
+-   Researchers are being criticized for P-hacking (reporting only significant findings) and [HARKing](https://journals.sagepub.com/doi/10.1207/s15327957pspr0203_4) (hypothesising after the results are known) within scientific research; through preregistration we can illustrate that we do not engage in these practices 
 
  
 
-## What types of research could be preregistered? 
+What types of research could be preregistered? 
 
 All types of research can be pre-registered. Preregistration can be used for both confirmatory and exploratory research, in any research approach -- quantitative and qualitative. Besides quantitative experimental designs, this includes among others observational designs, survey designs, randomized trials, secondary data analyses, qualitative interviews, ethnographies or focus groups, and systematic reviews. The key here is that the preregistration provides transparency about what the research plan was prior to data collection. For some designs such as ethnography or qualitative interviews, minimal information may be known in advance; for others such as randomised trials, much more information will be known and available for preregistration. 
 
  
 
-## How do I preregister my plans/protocols for research? 
+How do I preregister my plans/protocols for research? 
 
 How and where to register your protocols depends on the purpose and the type of research you are conducting. Several online repositories have been created that are optimized for the practice of preregistration and transparency (e.g., version control, links to data). These are given below. 
 
-There may be different requirements for each type of research and the [Equator Network](https://www.equator-network.org/) have provided guidance on what to include in protocols for a selection of different designs. 
-
-[To date, this includes trials, intervention detail, systematic reviews, tomography studies, intervention development studies, and core outcome sets.](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=study-protocols&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=+) You can also publish the protocol as a peer-reviewed journal article, but this should be considered in addition to the registrations below given the time the peer-review process takes. If your chosen journal facilitates this (see [Sherpa Romeo](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiN15PH5uj2AhWWgVwKHZrhBVUQFnoECBsQAQ&url=https%3A%2F%2Fv2.sherpa.ac.uk%2Fromeo%2F&usg=AOvVaw15qJgnVi1rYJQo55z673Zj)) you could deposit the pre-print (i.e., the manuscript submitted for publication) at a pre-print server such as [PsyArXiv](https://psyarxiv.com/).  
+There may be different requirements for each type of research and the [Equator Network](https://www.equator-network.org/) have provided [guidance](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=study-protocols&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=+) on what to include in protocols for a selection of different designs. To date, this includes trials, intervention detail, systematic reviews, tomography studies, intervention development studies, and core outcome sets.
+You can also publish the protocol as a peer-reviewed journal article, but this should be considered in addition to the registrations below given the time the peer-review process takes. If your chosen journal facilitates this (see [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/) you could deposit the pre-print (i.e., the manuscript submitted for publication) at a pre-print server such as [PsyArXiv](https://psyarxiv.com/).  
 
  
 
@@ -78,23 +69,25 @@ Below, we list the main repositories to help staff get started with preregistrat
 
 -   Answer 10 questions about research protocol 
 
-```{=html}
 <!-- -->
-```
+
 -   Answers saved as pdf website 
 
-Researchers control the visibility (private or public). 
+-   Example: [Valkanidis, Doumas, and Dessing (2020)](https://aspredicted.org/p6956.pdf) 
+
+-   Researchers control the visibility (private or public). 
 
 [Open Science Framework \| OSF Preregistration](https://osf.io/prereg/) 
 
 -   Platform dedicated to Open Science. 
 
-```{=html}
 <!-- -->
-```
+
 -   Variety of formats for specific types of research (e.g., quantitative, qualitative, systematic reviews, scoping reviews, secondary data analyses) 
 
 -   Can be helpful for student preregistrations (supervisors are encouraged to create a single page for a given academic year cohort e.g., 2022/2023, with folders for each registered project) 
+
+-   Example: [Reid and Dessing (2016)](https://osf.io/sqh36)
 
 [ClinicalTrials.gov](https://clinicaltrials.gov/) 
 
@@ -102,22 +95,17 @@ Researchers control the visibility (private or public). 
 
 -   It is an ethical requirement as per the [Declaration of Helsinki](http://www.wma.net/en/30publications/10policies/b3/) that every clinical trial must be registered in a publicly accessible database before recruitment of the first participant. A list of other registration sites are: [Primary Registries in the WHO Registry Network](https://www.who.int/ictrp/network/primary/en/) or an [ICMJE approved registry](http://www.icmje.org/about-icmje/faqs/clinical-trials-registration/). Please note that some of these may incur a charge. For trials you should also complete a [SPIRIT protocol](https://www.equator-network.org/reporting-guidelines/spirit-2013-statement-defining-standard-protocol-items-for-clinical-trials/) document for your Trial Master file. 
 
-
 [PROSPERO (york.ac.uk)](https://www.crd.york.ac.uk/prospero/) 
 
 -   Preregistration of systematic reviews 
 
-```{=html}
 <!-- -->
-```
--   If you are aiming to publish your systematic review, you may severely limit your publication chances if you do not preregister your review. Good guidance on systematic review conduct can be found on [York Centre for Reviews and Dissemination](https://www.york.ac.uk/media/crd/Systematic_Reviews.pdf). To minimize work for the team at PROSPERO, only those reviews you intend to publish should be hosted at this site. For reviews in the context of teaching the Open Science Framework is more appropriate, but the preregistration could follow the structure of the PROSPERO registration.  
 
+-   If you are aiming to publish your systematic review, you may severely limit your publication chances if you do not preregister your review. Good guidance on systematic review conduct can be found on [York Centre for Reviews and Dissemination](https://www.york.ac.uk/media/crd/Systematic_Reviews.pdf). To minimize work for the team at PROSPERO, only those reviews you intend to publish should be hosted at this site. For reviews in the context of teaching the Open Science Framework is more appropriate, but the preregistration could follow the structure of the PROSPERO registration.  
 
 [COMET Initiative](https://www.comet-initiative.org/) 
 
 -   For core outcome sets or minimum data standards 
-
-
 
 Please consider depositing your preregistration on the PURE platform after you have registered it on one of the platforms above. To do so, log into your PURE account, go to research outputs, other contribution, protocol, and select either peer-reviewed (e.g., Prospero) or non-peer-reviewed (e.g., OSF) and link to the DOI. You might also want to highlight this as a protocol in the title of the deposit to minimise confusion if you use the same title for the paper arising from the work. 
 
@@ -129,15 +117,15 @@ Once data is collected and analyzed the registered report is updated with the fi
 
 ## Common questions 
 
-### Doesn't preregistration stifle exploration and creativity? 
+*Doesn't preregistration stifle exploration and creativity?* 
 
-No. Nothing prevents further exploration of the patterns within a dataset. Preregistration just ensures that such analyses are appropriately identified as exploratory. Plans can also change, and this can be reflected in an updated version of the preregistered protocol prior to research start, or if research has already started, then transparently reported and explainedas a deviation from the protocol in the write up. 
+No. Nothing prevents further exploration of the patterns within a dataset. Preregistration just ensures that such analyses are appropriately identified as exploratory. Plans can also change, and this can be reflected in an updated version of the preregistered protocol prior to research start, or if research has already started, then transparently reported and explained as a deviation from the protocol in the write up. 
 
-### Is it extra work? 
+*Is it extra work?* 
 
 Yes and no. Yes, preregistration typically involves an in-depth research protocol, the details of which may take more time to iron out. However, since most research within Psychology requires an ethics application, which also involves a research protocol, at least part of the information is already written down even without preregistration. Moreover, preregistration changes the order in which researchers spend time: putting in more effort before data collection reduces the time needed from data collection to dissemination. 
 
-### If I preregister elsewhere why do I need to add it to my PURE repository? 
+*If I preregister elsewhere why do I need to add it to my PURE repository?* 
 
 Any preregistration on any site/portal implies that you are doing the work; it creates an easily searchable protocol, which individuals who are considering similar work can see to avoid duplication of effort (e.g., in reviews), or to guide replication efforts (e.g., replication studies). 
 
