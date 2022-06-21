@@ -24,19 +24,11 @@ Open data supports the inferences and conclusions from our studies and enables o
 
 1.  **Decide on your licence** 
 
- 
-
 Researchers should apply an open licence to datasets to reduce issues around ambiguity and what can and cannot be done with the shared data . This licence is most often a specified [Creative Commons licence](https://creativecommons.org/about/cclicenses/) (click on the link to identify the right licence for you). Please note without a licence it can be used without credit or acknowledgement of the source. PURE colleagues are also very helpful if you need advice about any of this. 
-
- 
 
 2.  **Observe the guidelines on data deposit** 
 
- 
-
 The guidelines on data deposit at Queen's University Belfast (available at [Standard Operating Procedures](https://www.qub.ac.uk/Research/Governance-ethics-and-integrity/Policies-procedures-and-guidelines/Standard-operating-procedures/)).  
-
- 
 
 Key publications include: 
 
@@ -44,47 +36,27 @@ Key publications include: 
 
 [Data Management, Collection, Validation and Storage](https://www.qub.ac.uk/home/Research/Governance-ethics-and-integrity/FileStore/Filetoupload,1226024,en.pdf)  
 
- 
-
 3.  **Make sure the data is suitable for deposit using FAIR principles** 
-
- 
 
 [FAIR principles](https://www.go-fair.org/fair-principles/) should be applied. Data should be 
 
- 
-
 **F**indable -- data should have a Digital Object Identifier (DOI) which allows it to be easily found using search tools. 
-
- 
 
 **A**ccessible -- data should be accessible to others and deposited on a credible repository. 
 
- 
-
 **I**nteroperable -- data formats should be adaptable to multiple analytical platforms for future use. We recommend the use of .csv format to support use by others. 
-
- 
 
 **R**eusable -- data should be clearly labelled with an accompanying licence (often CC BY 4.0, but for more information see the creative commons licences links above).  
 
- 
-
 FAIR principles should motivate us to organize the data logically and accompany it by documentation. Importantly, with data accessibility in mind, many of these aspects can be planned for in the data management plan to minimize the time needed, while maximizing the benefits. 
 
- 
-
 4.  **Link manuscript with your data** 
-
- 
 
 Use the DOI in your manuscript as you submit to a journal to illustrate where your data is sourced. You may also want to do this with your [Open Materials](https://qubpsy.github.io/QUBPsyOpenScience/open_materials.html). 
 
  
 
 5.  **Set access rules and encourage others to engage with your work** 
-
- 
 
 You can put an embargo on the date at which data can be accessed such as 12 months from deposit to allow you to publish the papers you wish from the data, and still leave it available for others to access. You may also wish to put out a statement regarding re-use of the data: 
 
@@ -100,9 +72,7 @@ Please contact the lead author, Professor Jones ([a.jones\@qub.ac.uk),](mailto:a
 
 ## Where to share data? 
 
-There are many ways to make data open. QUB offers researchers to share their research data through PURE (<https://pure.qub.ac.uk/en/datasets/>). Some QUB Psychology data is being shared through the following portals: 
-
- 
+There are many ways to make data open. QUB offers researchers to share their research data through PURE (<https://pure.qub.ac.uk/en/datasets/>). Some QUB Psychology data is being shared through the following portals:
 
 [Open Science Framework](https://osf.io/) 
 
@@ -132,7 +102,7 @@ Beyond that, the following online data repositories are frequently used in our f
 
  
 
-For an overview of different online data repositories, see [https://www.re3data.org/](https://www.re3data.org/) 
+For an overview of different online data repositories, see <https://www.re3data.org/> 
 
  
 
