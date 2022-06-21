@@ -26,6 +26,8 @@ Open data supports the inferences and conclusions from our studies and enables o
 
 Researchers should apply an open licence to datasets to reduce issues around ambiguity and what can and cannot be done with the shared data . This licence is most often a specified [Creative Commons licence](https://creativecommons.org/about/cclicenses/) (click on the link to identify the right licence for you). Please note without a licence it can be used without credit or acknowledgement of the source. PURE colleagues are also very helpful if you need advice about any of this. 
 
+ 
+
 2.  **Observe the guidelines on data deposit** 
 
 The guidelines on data deposit at Queen's University Belfast (available at [Standard Operating Procedures](https://www.qub.ac.uk/Research/Governance-ethics-and-integrity/Policies-procedures-and-guidelines/Standard-operating-procedures/)).  
@@ -35,6 +37,8 @@ Key publications include: 
 [Setting Up, Maintaining and Archiving Research Files](https://www.qub.ac.uk/home/Research/Governance-ethics-and-integrity/FileStore/Filetoupload,1226017,en.pdf) and  
 
 [Data Management, Collection, Validation and Storage](https://www.qub.ac.uk/home/Research/Governance-ethics-and-integrity/FileStore/Filetoupload,1226024,en.pdf)  
+
+ 
 
 3.  **Make sure the data is suitable for deposit using FAIR principles** 
 
@@ -49,6 +53,8 @@ Key publications include: 
 **R**eusable -- data should be clearly labelled with an accompanying licence (often CC BY 4.0, but for more information see the creative commons licences links above).  
 
 FAIR principles should motivate us to organize the data logically and accompany it by documentation. Importantly, with data accessibility in mind, many of these aspects can be planned for in the data management plan to minimize the time needed, while maximizing the benefits. 
+
+ 
 
 4.  **Link manuscript with your data** 
 
