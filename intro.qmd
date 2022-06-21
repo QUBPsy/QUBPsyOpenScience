@@ -28,7 +28,7 @@ There is an increasing recognition of the value of Open Science practices propos
 
 ## Open Science Practices 
 
-To help embed Open Science within the research culture of the School of Psychology, this guide will provide descriptions and practical advice on key Open Science practices. Section 1 will cover Preregistration; Section 2 Ethics and Open Science; Section 3 Open data/materials; Section 4 Open-Access Publishing and Section 5 Education. 
+To help embed Open Science within the research culture of the School of Psychology, this guide will provide descriptions and practical advice on key Open Science practices: [Preregistration](https://qubpsy.github.io/QUBPsyOpenScience/preregistration.html), [Ethics and Open Science](https://qubpsy.github.io/QUBPsyOpenScience/ethics.html), [Open data](https://qubpsy.github.io/QUBPsyOpenScience/open_data.html), ([Open materials])https://qubpsy.github.io/QUBPsyOpenScience/open_materials.html), [Open-source formats](https://qubpsy.github.io/QUBPsyOpenScience/open_source_formats.html), [Reproducible Documents](https://qubpsy.github.io/QUBPsyOpenScience/reproducible_documents.html), [Open-Access Publishing](https://qubpsy.github.io/QUBPsyOpenScience/open-access_publishing.html) and [Education](https://qubpsy.github.io/QUBPsyOpenScience/education.html). 
 
 ## Feedback and additional information 
 
