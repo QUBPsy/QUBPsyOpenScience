@@ -2,13 +2,9 @@
 
 **The School of Psychology encourages staff to share their materials where appropriate.** 
 
- 
-
 ## What are Open Materials? 
 
 Open Materials refer to the public sharing of materials used in our research. This can refer to any materials used in the study: information (e.g., questionnaires), code, \[description of\] experimental set-ups. Just like [Open Data](https://qubpsy.github.io/QUBPsyOpenScience/open_data.html), the sharing of materials greatly promotes reproducibility. Moreover, Open Materials increases efficiency in science, since it allows researchers to benefit from efforts of others. Sharing of code underlying data analyses together with Open Data helps other to verify the validity of any inferences/conclusions; this can include detection of issues with computer code. [FAIR principles](https://www.go-fair.org/fair-principles/) are again an important guidance here: **F**indability, **A**ccessibility, **I**nteroperability and **R**euse.  
-
- 
 
 ## Benefits 
 
@@ -42,21 +38,13 @@ You can share any materials you used in the research process as long as you have
 
 -   Any other curated information which illustrates how you reached conclusions (e.g., decisions made on papers for a systematic review). 
 
- 
-
 ## How to deposit and curate your materials 
 
 1.  **Decide on your licence** 
 
- 
-
 Researchers should apply an open licence to each item to reduce issues around ambiguity and what can and cannot be done with deposited materials. This licence is most often a specified [Creative Commons licence](https://creativecommons.org/about/cclicenses/) (click on the link to identify the right licence for you). Please note without a licence it can be used without credit or acknowledgement of the source. 
 
- 
-
 2.  **Observe the guidelines on deposit of research materials** 
-
- 
 
 The guidelines on research conduct at Queen's University Belfast are available at [Standard Operating Procedures](https://www.qub.ac.uk/Research/Governance-ethics-and-integrity/Policies-procedures-and-guidelines/Standard-operating-procedures/). If in doubt, seek advice before deposit.  
 
@@ -64,45 +52,25 @@ The guidelines on research conduct at Queen's University Belfast are available a
 
 [Data Management, Collection, Validation and Storage](https://www.qub.ac.uk/home/Research/Governance-ethics-and-integrity/FileStore/Filetoupload,1226024,en.pdf)  
 
- 
-
 3.  **Make sure the materials are suitable for deposit using FAIR principles** 
-
- 
 
 [FAIR principles](https://www.go-fair.org/fair-principles/) should be applied. Materials should be 
 
- 
-
 **F**indable -- data should have a Digital Object Identifier (DOI) which allows it to be easily found using search tools. 
 
- 
-
 **A**ccessible -- materials should be accessible to others and deposited on a credible repository. 
-
- 
 
 **I**nteroperable -- materials formats should be adaptable to multiple platforms for future use.  
 
 **R**eusable -- materials should be clearly labelled with an accompanying licence (often CC BY 4.0, but for more information see the creative commons licence link above).  
 
- 
-
 FAIR principles should motivate us to organize the materials logically and accompany it by documentation. As you prepare your materials you may consider that they will be publicly available and deposit as you go along.  
-
- 
 
 4.  **Link manuscript with your materials** 
 
- 
-
 Use the DOI in your manuscript as you submit to a journal to illustrate where your open materials are sourced. You may be able to describe the materials in the section in the manuscript or it may be useful to link to an overarching page (e.g., on the [Open Science Framework](https://osf.io/)), which represents the project where space is limited. 
 
- 
-
 5.  **Make some decisions about your materials and encourage others to engage with your work** 
-
- 
 
 You can put an embargo on the date at which materials can be accessed such as 12 months from deposit to allow you to publish the papers you wish from the research. You may also wish to put out a statement regarding re-use of the materials: 
 
@@ -116,45 +84,26 @@ Jones, A.B. (2022). First paper describing the results of the research project. 
 
 Please contact the lead author Professor Jones [a.jones\@qub.ac.uk](mailto:ab.smith@ulster.ac.uk) with any publications arising from the materials used and share best practice. 
 
- 
-
-Where to share materials? 
+## Where to share materials? 
 
 QUB encourages researchers to share their research data through Pure (<https://pure.qub.ac.uk/en/datasets/>) but for open materials it may make more sense to use the repositories below.  
 
- 
-
-Beyond that, several online repositories are available for sharing materials. 
-
- 
-
 [Research Box](https://researchbox.org/)  
 
--   Mirroring AsPredicted.org 
-
-<!-- -->
-
+-   Mirroring AsPredicted.org
 -   Data and materials archive 
-
- 
 
 [Open Science Framework](https://osf.io/) 
 
--   Platform dedicated to Open Science. 
+-   Platform dedicated to Open Science.
 
--   Multiple server locations 
-
-<!-- -->
+-   Multiple server locations
 
 -   Can host the information in one place. 
-
- 
 
 [Zenodo](https://zenodo.org/) 
 
 -   Servers based at CERN 
-
- 
 
 [Github](https://github.com/) 
 

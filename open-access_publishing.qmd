@@ -34,8 +34,8 @@ If you are not publishing in a Gold open access journal, QUB encourages research
 
 [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/) 
 
-An online resource that provides summaries of publisher copyright and open access archiving policies on a journal-by-journal basis. It will also provide information on whether your journal supports pre-prints and what version of the manuscript is supported for PURE deposits.  
- 
+An online resource that provides summaries of publisher copyright and open access archiving policies on a journal-by-journal basis. It will also provide information on whether your journal supports pre-prints and what version of the manuscript is supported for PURE deposits.
+
 ## Common Questions 
 
 *Should all publications be open access?*  
