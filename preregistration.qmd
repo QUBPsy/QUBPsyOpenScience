@@ -87,7 +87,7 @@ Below, we list the main repositories to help staff get started with preregistrat
 
 -   Can be helpful for student preregistrations (supervisors are encouraged to create a single page for a given academic year cohort e.g., 2022/2023, with folders for each registered project) 
 
--   Example: [Reid and Dessing (2016)](https://osf.io/sqh36)
+-   Examples: [Reid and Dessing (2016)](https://osf.io/sqh36), [Schultze, Gerlach and Rittich ( 2017)](https://osf.io/xvhgg/)
 
 [ClinicalTrials.gov](https://clinicaltrials.gov/) 
 

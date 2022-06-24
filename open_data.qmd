@@ -88,7 +88,9 @@ There are many ways to make data open. QUB offers researchers to share their res
 
 -   Multiple server locations 
 
--   Example: [Reid and Dessing (2018)](https://osf.io/n4yjr/) 
+-   Examples: [Reid and Dessing (2018)](https://osf.io/n4yjr/), [Schultze, Gerlach and Rittich (2017)](https://osf.io/xvhgg/)\]
+
+     
 
  
 
