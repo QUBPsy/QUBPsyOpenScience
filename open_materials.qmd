@@ -14,7 +14,7 @@ Open Materials refer to the public sharing of materials used in our research. Th
 
 ## What materials should be shared? 
 
-You can share any materials you used in the research process as long as you have permission for this of course. Please pay particular attention to ethical permissions, copyright, and the wishes of the creators of the materials ; alsoconsider fair use of any materials. Deposited information may include: 
+You can share any materials you used in the research process as long as you have permission for this of course. Please pay particular attention to ethical permissions, copyright, and the wishes of the creators of the materials ; also consider fair use of any materials. Deposited information may include: 
 
 -   Blank information sheets 
 
@@ -23,8 +23,6 @@ You can share any materials you used in the research process as long as you have
 -   Stimuli or other materials sent to participants 
 
 -   Computer code used to generate any materials or stimuli for the study 
-
-<!-- -->
 
 -   Analysis input and output 
 
@@ -86,12 +84,12 @@ Please contact the lead author Professor Jones [a.jones\@qub.ac.uk](mailto:ab.sm
 
 QUB encourages researchers to share their research data through Pure (<https://pure.qub.ac.uk/en/datasets/>) but for open materials it may make more sense to use the repositories below.  
 
-[Research Box](https://researchbox.org/)  
+[**Research Box**](https://researchbox.org/)  
 
 -   Mirroring AsPredicted.org
 -   Data and materials archive 
 
-[Open Science Framework](https://osf.io/) 
+[**Open Science Framework**](https://osf.io/) 
 
 -   Platform dedicated to Open Science.
 
@@ -99,11 +97,11 @@ QUB encourages researchers to share their research data through Pure (<https://p
 
 -   Can host the information in one place. 
 
-[Zenodo](https://zenodo.org/) 
+[**Zenodo**](https://zenodo.org/) 
 
 -   Servers based at CERN 
 
-[Github](https://github.com/) 
+[**Github**](https://github.com/) 
 
 -   A repository widely used for software development version control, forking. 
 

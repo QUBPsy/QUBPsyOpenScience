@@ -4,7 +4,9 @@
 
 ## What is Open Data? 
 
-Open data supports the inferences and conclusions from our studies and enables others to a) use the data and maximise utility, b) verify our conclusions and promote reproducibility. Sharing data can be facilitated through the PURE repository (preferred). Data may also be shared through the Open Science Framework based at osf.io. Your ethics approvals for your research should guide data sharing, and there is some guidance to support your engagement with Open Science in your ethics application elsewhere in these pages.   \## What are the benefits of open data? 
+Open data supports the inferences and conclusions from our studies and enables others to a) use the data and maximise utility, b) verify our conclusions and promote reproducibility. Sharing data can be facilitated through the PURE repository (preferred). Data may also be shared through the Open Science Framework based at osf.io. Your ethics approvals for your research should guide data sharing, and there is some guidance to support your engagement with Open Science in your ethics application elsewhere in these pages.  
+
+## What are the benefits of open data? 
 
 -   Maximizing transparency to promote reproducibility 
 
@@ -70,15 +72,21 @@ Within the university, Open data is supported by the [Open Research Team](https:
 
 There are many ways to make data open. QUB offers researchers to share their research data through PURE (<https://pure.qub.ac.uk/en/datasets/>), or through the aforementioned Active Data Storage service. Some QUB Psychology data is being shared through the following portals:
 
-[Open Science Framework](https://osf.io/) 
+[**Open Science Framework**](https://osf.io/) 
 
 -   Platform dedicated to Open Science. 
 
 -   Multiple server locations 
 
--   Examples: [Reid and Dessing (2018)](https://osf.io/n4yjr/), [Schultze, Gerlach and Rittich (2017)](https://osf.io/xvhgg/)\]   [Zenodo](https://zenodo.org/) 
+-   Examples: [Reid and Dessing (2018)](https://osf.io/n4yjr/), [Schultze, Gerlach and Rittich (2017)](https://osf.io/xvhgg/)\]  
 
--   Servers based at CERN    Beyond that, the following online data repositories are frequently used in our field:    [Research Box](https://researchbox.org/)  
+[**Zenodo**](https://zenodo.org/) 
+
+-   Servers based at CERN 
+
+Beyond that, the following online data repositories are frequently used in our field: 
+
+[**Research Box**](https://researchbox.org/)  
 
 -   Mirroring [AsPredicted.org](https://aspredicted.org/)
 
