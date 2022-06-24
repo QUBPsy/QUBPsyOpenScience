@@ -9,3 +9,7 @@ Much of science relies on computers and software. Many of the traditionally used
 - Maximizing reproducibility
 
 - Maximizing usefulness of materials contributing to science and its progress
+
+## How to engage?
+
+This is largely based on personal initiative. Search for Open Source variants of software you are using and decide whether and how these could replace your current proprietary software. Sometimes, a full switch to using a new software is the best solution; the School is currently starting the process of switching from using SPSS to using R-based software for statistical analyses. I some cases, sharing data or materials from proprietary software in formats that can be read by or executed by (e.g., computer code) by Open Source variants is the easiest solution. Of course, [FAIR principles](https://www.go-fair.org/fair-principles/) dictate that you must check this (this would also require you to report the software version for which you confirmed this). 

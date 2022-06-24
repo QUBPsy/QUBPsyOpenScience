@@ -50,7 +50,7 @@ You can share any materials you used in the research process as long as you have
 
  
 
-Researchers should apply an open licence to each item to reduce issues around ambiguity and what can and cannot be done with deposited materials. This licence is most often a specified [Creative Commons licence](https://creativecommons.org/about/cclicenses/) (click on the link to identify the right licence for you). **Please note without a licence it can be used without credit or acknowledgement of the source.** 
+Researchers should apply an open licence to each item to reduce issues around ambiguity and what can and cannot be done with deposited materials. This licence is most often a specified [Creative Commons licence](https://creativecommons.org/about/cclicenses/) (click on the link to identify the right licence for you). Please note without a licence it can be used without credit or acknowledgement of the source. 
 
  
 
@@ -160,13 +160,11 @@ Beyond that, several online repositories are available for sharing materials. 
 
 -   A repository widely used for software development version control, forking. 
 
-## Questions 
+## Common Questions 
 
 *Should all materials be shared?* 
 
 No. If materials are already publicly accessible, there is no need to share this again. Moreover, some materials may not be published because of copyright or intellectual property restrictions, or future potential thereof. Ethical or safety concerns may also apply, particularly in the development stage (e.g., for treatments). 
-
-
 
 *Is it extra work?* 
 
