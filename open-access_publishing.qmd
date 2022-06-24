@@ -34,11 +34,11 @@ If you are not publishing in a Gold open access journal, QUB encourages research
 
 [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/) 
 
-An online resource that provides summaries of publisher copyright and open access archiving policies on a journal-by-journal basis. It will also provide information on whether your journal supports pre-prints and what version of the manuscript is supported for PURE deposits.
+An online resource that provides summaries of publisher copyright and open access archiving policies on a journal-by-journal basis. It will also provide information on whether your journal supports pre-prints and what version of the manuscript is supported for PURE deposits. 
 
 ## Common Questions 
 
-*Should all publications be open access?*  
+*Should all publications be open access?* 
 
 Increasingly, research funders (e.g., UKRI) are requiring publications to be open access and articles are also required to be open access for REF eligibility. If deciding not to publish open access, it is worth taking this into consideration. Ultimately it is important that your work appears before the most appropriate audience. 
 

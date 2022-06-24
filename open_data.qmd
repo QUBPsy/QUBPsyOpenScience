@@ -80,9 +80,11 @@ There are many ways to make data open. QUB offers researchers to share their res
 
 -   Servers based at CERN    Beyond that, the following online data repositories are frequently used in our field:    [Research Box](https://researchbox.org/)  
 
--   Mirroring [AsPredicted.org](https://aspredicted.org/) 
+-   Mirroring [AsPredicted.org](https://aspredicted.org/)
 
-Data and materials archive    For an overview of different online data repositories, see <https://www.re3data.org/>
+-   Data and materials archive
+
+For an overview of different online data repositories, see <https://www.re3data.org/>
 
 ## Common Questions 
 
