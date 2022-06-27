@@ -23,7 +23,7 @@ website:
       - reproducible_documents.qmd
       - open-access_publishing.qmd
       - education.qmd
-      - references.qmd
+      
 csl: apa.csl
 bibliography: references.bib
 

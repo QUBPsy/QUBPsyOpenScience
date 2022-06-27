@@ -28,11 +28,11 @@ There is an increasing recognition of the value of Open Science practices propos
 
 ## Open Science Practices 
 
-To help embed Open Science within the research culture of the School of Psychology, this guide will provide descriptions and practical advice on key Open Science practices: [Preregistration](https://qubpsy.github.io/QUBPsyOpenScience/preregistration.html), [Ethics and Open Science](https://qubpsy.github.io/QUBPsyOpenScience/ethics.html), [Open data](https://qubpsy.github.io/QUBPsyOpenScience/open_data.html), [Open materials](https://qubpsy.github.io/QUBPsyOpenScience/open_materials.html), [Open-source formats](https://qubpsy.github.io/QUBPsyOpenScience/open_source_formats.html), [Reproducible Documents](https://qubpsy.github.io/QUBPsyOpenScience/reproducible_documents.html), [Open-Access Publishing](https://qubpsy.github.io/QUBPsyOpenScience/open-access_publishing.html) and [Education](https://qubpsy.github.io/QUBPsyOpenScience/education.html). 
+To help embed Open Science within the research culture of the School of Psychology, this guide will provide descriptions and practical advice on key Open Science practices: [Preregistration](https://qubpsy.github.io/QUBPsyOpenScience/preregistration.html), [Ethics and Open Science](https://qubpsy.github.io/QUBPsyOpenScience/ethics.html), [Open data](https://qubpsy.github.io/QUBPsyOpenScience/open_data.html), (\[Open materials\])https://qubpsy.github.io/QUBPsyOpenScience/open_materials.html), [Open-source formats](https://qubpsy.github.io/QUBPsyOpenScience/open_source_formats.html), [Reproducible Documents](https://qubpsy.github.io/QUBPsyOpenScience/reproducible_documents.html), [Open-Access Publishing](https://qubpsy.github.io/QUBPsyOpenScience/open-access_publishing.html) and [Education](https://qubpsy.github.io/QUBPsyOpenScience/education.html). 
 
 ## Feedback and additional information 
 
-This document is written by your colleagues to support the School's efforts to be more engaged in Open Science practices. If you spot any errors, would like to add any amendments, or have an innovation or efficient practice to share, please fill out the [Open Science Webform](https://qubpsyopensciencewebform.formr.org/).
+This document is written by your colleagues to support the School's efforts to be more engaged in open science practices. If you spot any errors, would like to add any amendments, or have an innovation or efficient practice to share, please fill out the [Open Science Webform](https://qubopensciencewebform.formr.org/).
 
 If you require any advice or support regarding your Open Science practice feel free to contact the authors at 
 
