@@ -8,7 +8,7 @@ website:
   date: "6/9/2022"
   favicon: images/favicon.ico
   twitter-card:
-    creator: "QUBPsych"
+    creator: "@QUBPsych"
   opengraph: true
   toc: true
   server: shiny
