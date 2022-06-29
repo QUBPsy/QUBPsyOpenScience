@@ -10,6 +10,8 @@ website:
   twitter-card:
     creator: "@QUBPsych"
   opengraph: true
+  google-analytics: "G-4HGH1K5VWH"
+  cookie-consent: true
   toc: true
   server: shiny
   navbar:
