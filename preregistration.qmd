@@ -1,6 +1,6 @@
 # Preregistration {#Preregistration}
 
-**The School of Psychology encourages staff to preregister their research as standard.** 
+**We encourage staff to preregister their research as standard.** 
 
 ## What is preregistration? 
 
@@ -72,9 +72,8 @@ Below, we list the main repositories to help staff get started with preregistrat
 
 -   Platform dedicated to Open Science.
 
-```{=html}
 <!-- -->
-```
+
 -   Variety of formats for specific types of research (e.g., quantitative, qualitative, systematic reviews, scoping reviews, secondary data analyses) 
 
 -   Can be helpful for student preregistrations (supervisors are encouraged to create a single page for a given academic year cohort e.g., 2022/2023, with folders for each registered project) 
@@ -91,9 +90,8 @@ Below, we list the main repositories to help staff get started with preregistrat
 
 -   Preregistration of systematic reviews 
 
-```{=html}
 <!-- -->
-```
+
 -   If you are aiming to publish your systematic review, you may severely limit your publication chances if you do not preregister your review. Good guidance on systematic review conduct can be found on [York Centre for Reviews and Dissemination](https://www.york.ac.uk/media/crd/Systematic_Reviews.pdf). To minimize work for the team at PROSPERO, only those reviews you intend to publish should be hosted at this site. For reviews in the context of teaching the Open Science Framework is more appropriate, but the preregistration could follow the structure of the PROSPERO registration.  
 
 [**COMET Initiative**](https://www.comet-initiative.org/) 
