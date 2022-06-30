@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-
 website:
   title: "QUBPsyOpenScience"
   author: "Joost Dessing, Lisa Graham-Wisener, Matthew Rodger, Gillian Shorter, Gary McKeown, Paul Toner, Tanja Gerlach, Thomas Schultze-Gerlach"
@@ -29,6 +28,7 @@ website:
       - reproducible_documents.qmd
       - open-access_publishing.qmd
       - education.qmd
+      - license.qmd
       
 csl: apa.csl
 bibliography: references.bib
