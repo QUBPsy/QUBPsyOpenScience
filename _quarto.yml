@@ -1,18 +1,26 @@
 project:
   type: website
   output-dir: docs
+  # author:
+  # - Joost Dessing
+  # - Lisa Graham-Wisener
+  # - Matthew Rodger
+  # - Gillian Shorter
+  # - Gary McKeown
+  # - Paul Toner
+  # - Tanja Gerlach
+  # - Thomas Schultze-Gerlach
 website:
-  title: "QUBPsyOpenScience"
-  author: "Joost Dessing, Lisa Graham-Wisener, Matthew Rodger, Gillian Shorter, Gary McKeown, Paul Toner, Tanja Gerlach, Thomas Schultze-Gerlach"
-  date: "6/9/2022"
+  title: QUBPsyOpenScience
+  # date: 06/09/2022
   favicon: images/favicon.ico
   twitter-card:
-    creator: "@QUBPsych"
-  opengraph: true
-  google-analytics: "G-4HGH1K5VWH"
+    creator: '@QUBPsych'
+  open-graph: true
+  google-analytics: G-4HGH1K5VWH
   cookie-consent: true
-  toc: true
-  server: shiny
+  # toc: true
+  # server: shiny
   navbar:
     logo: images/QUBlogoWsmall.png
     background: primary
@@ -29,17 +37,13 @@ website:
       - open-access_publishing.qmd
       - education.qmd
       - license.qmd
-      
 csl: apa.csl
 bibliography: references.bib
-
 format:
   html:
-    theme: 
+    theme:
       - cerulean
       - custom.scss
   pdf:
     documentclass: scrreprt
-
 editor: visual
-
