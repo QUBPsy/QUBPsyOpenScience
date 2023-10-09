@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+website:
+  title: QUBPsyOpenScience
   # author:
   # - Joost Dessing
   # - Lisa Graham-Wisener
@@ -10,15 +12,13 @@ project:
   # - Paul Toner
   # - Tanja Gerlach
   # - Thomas Schultze-Gerlach
-website:
-  title: QUBPsyOpenScience
   # date: 06/09/2022
   favicon: images/favicon.ico
   twitter-card:
     creator: '@QUBPsych'
   open-graph: true
   google-analytics: G-4HGH1K5VWH
-  cookie-consent: true
+  cookie-consent: false
   # toc: true
   # server: shiny
   navbar:
@@ -33,7 +33,10 @@ website:
       - open_data.qmd
       - open_materials.qmd
       - open_source_formats.qmd
-      - reproducible_documents.qmd
+      - text: Reproducibility
+        menu:
+          - reproducible_documents.qmd
+          - github.qmd
       - open-access_publishing.qmd
       - education.qmd
       - license.qmd
