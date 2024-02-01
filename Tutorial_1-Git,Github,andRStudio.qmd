@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Git, Github, and RStudio"
+title: "Tutorial 1: Git, Github, and RStudio"
 ---
 
 R has a number of packages that facilitate its use with git. git2r, gitcreds, gh, gert, credentials all work within R to allow the use of git and GitHub. RStudio has good integration with both git and GitHub and if you are working in an RStudio environment it is wise to use the integrated tools.

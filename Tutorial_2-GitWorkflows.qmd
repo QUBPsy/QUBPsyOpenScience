@@ -1,5 +1,5 @@
 ---
-title: "Tutorial-Git Workflows"
+title: "Tutorial 2-Git Workflows"
 ---
 
 ## Git Workflows
