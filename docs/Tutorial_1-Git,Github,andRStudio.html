@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>QUBPsyOpenScience</title>
+<title>QUBPsyOpenScience - Tutorial: Git, Github, and RStudio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -112,10 +112,10 @@ gtag('config', 'G-4HGH1K5VWH', { 'anonymize_ip': true});
 </script>
 
 
-<meta property="og:title" content="QUBPsyOpenScience">
+<meta property="og:title" content="QUBPsyOpenScience - Tutorial: Git, Github, and RStudio">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="QUBPsyOpenScience">
-<meta name="twitter:title" content="QUBPsyOpenScience">
+<meta name="twitter:title" content="QUBPsyOpenScience - Tutorial: Git, Github, and RStudio">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@QUBPsych">
 <meta name="twitter:card" content="summary">
@@ -215,20 +215,234 @@ gtag('config', 'G-4HGH1K5VWH', { 'anonymize_ip': true});
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tutorial: Git, Github, and RStudio</h1>
+</div>
 
 
 
-<section id="summary" class="level1">
-<h1>Summary</h1>
-<p>In summary, this book has no content whatsoever.</p>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>R has a number of packages that facilitate its use with git. git2r, gitcreds, gh, gert, credentials all work within R to allow the use of git and GitHub. RStudio has good integration with both git and GitHub and if you are working in an RStudio environment it is wise to use the integrated tools.</p>
+<p>There are a number of steps to be completed before you can use git and GitHub with R and RStudio. You need to make sure you have R and R Studio installed (I will assume this), you must get a <a href="https://github.com">GitHub account</a>, then install git on your personal computer, and then let RStudio know about your installation.</p>
+<p>There is also a much more comprehensive guide to using git and R at <a href="https://happygitwithr.com">Happy Git and GitHub for the useR</a> by Jennifer Bryan. See that for more detailed resources.</p>
+<section id="sec-installing-git" class="level2">
+<h2 class="anchored" data-anchor-id="sec-installing-git">Installing git</h2>
+<p>Different operating systems will have different methods for installing git.</p>
+<section id="windows" class="level3">
+<h3 class="anchored" data-anchor-id="windows">Windows</h3>
+<p>You can get an installer for Windows directly from the <a href="https://git-scm.com/download/win">git website</a>.</p>
+<p>However, a better option is to install “<a href="https://gitforwindows.org">git for Windows</a>” which installs git and some other tools, in particular a bash emulator. This makes the Windows version work in the same way as the Unix versions (Linux, MacOS), as the git comes from the Linux world it is better to stay within the Linux/Unix way of doing things. It also means that learning transfers across platforms.</p>
+<p>Accept the defaults except in the “Adjusting your PATH environment” question, select “Git from the command line and also from 3rd-party software”</p>
+<p>Once it has installed open the windows command prompt or within the Terminal tab in RStudio then type:</p>
+<p>git version</p>
+<p>to verify that it has installed.</p>
+</section>
+<section id="mac" class="level3">
+<h3 class="anchored" data-anchor-id="mac">Mac</h3>
+<p>It is probably the case that git is pre-installed on your computer. To check you can open the terminal app which is in the Utilities folder in the Applications folder and paste in the following line. Alternatively you can use the terminal tab in the console window in RStudio and paster in the same line.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If it is not installed you can install it using Homebrew, follow the instructions <a href="https://git-scm.com/download/mac">here</a> or <a href="https://ajahne.github.io/blog/tools/2018/06/11/how-to-upgrade-git-mac.html">here</a>. Or you can install Apples own <a href="https://developer.apple.com/xcode/">XCode software</a>, although the latter requires downloading a subtantial amount of material (3.21 GB).</p>
+</section>
+<section id="linux" class="level3">
+<h3 class="anchored" data-anchor-id="linux">Linux</h3>
+<p>It is probably the case that git is pre-installed on your computer. However, if it is not use the appropriate package manager to install git for your distro.</p>
+</section>
+</section>
+<section id="sec-let-rstudio-know-about-your-git-installation" class="level2">
+<h2 class="anchored" data-anchor-id="sec-let-rstudio-know-about-your-git-installation">Let RStudio know about your git installation</h2>
+<section id="windows-1" class="level3">
+<h3 class="anchored" data-anchor-id="windows-1">Windows</h3>
+<p>You may have to restart RStudio to let it look in the default place for the git installation. Then you can go to RStudio’s Tool menu and down to Global Options. When you open that select the Git/SVN tab and you should see your window as in <a href="#fig-WinRStudioGit" class="quarto-xref">Figure&nbsp;1</a>. If it does not show this then use the Browse button to find the git program in your Program Files. Make sure the “Enable version control interface for RStudio projects” button is ticked.</p>
+<div id="fig-WinRStudioGit" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-WinRStudioGit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/WinRStudioGit.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-WinRStudioGit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Windows RStudio Global Options Version Control Dialog Box
+</figcaption>
+</figure>
+</div>
+<p>Once the dialogue box is correct click the Apply button.</p>
+</section>
+<section id="mac-1" class="level3">
+<h3 class="anchored" data-anchor-id="mac-1">Mac</h3>
+<p>In RStudio Terminal type or copy and paste</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span> git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>It should produce something like:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/usr/bin/git</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>or</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/usr/local/bin/git</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Go to RStudio’s Tool menu and down to Global Options. When you open that select the Git/SVN tab and you should see the dialogue box as in <strong>?@fig-MacRStudioGit</strong>. If it does not show this then use the Browse button to find the git program. As these are hidden system files, the UNIX side of MacOS, you may need to access them using the Command+Shift+G key combination.</p>
+<p>Make sure the “Enable version control interface for RStudio projects” button is ticked.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/MacRStudioGit.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+<figcaption>Mac RStudio Global Options Version Control Dialog Box</figcaption>
+</figure>
+</div>
+<p>Once the dialogue box is correct click the Apply button.</p>
+</section>
+<section id="linux-1" class="level3">
+<h3 class="anchored" data-anchor-id="linux-1">Linux</h3>
+<p>To be added.</p>
+</section>
+</section>
+<section id="let-git-know-who-you-are" class="level2">
+<h2 class="anchored" data-anchor-id="let-git-know-who-you-are">Let git know who you are</h2>
+<p>We need to tell git who we are, the best way to do this is using the Terminal in RStudio.</p>
+<p>Paste</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Gary McKeown"</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"g.mckeown@qub.ac.uk"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>into the Terminal, replacing the user.name with your name and the user.email with the email you used to create your GitHub account. Then you can check that this has worked by using the following command.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> <span class="at">--list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="using-git-within-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="using-git-within-rstudio">Using git within RStudio</h2>
+<p>RStudio has good integration with git and for the most part you should be able to do most things while using the RStudio interface. However, the RStudio interface does not implement all of the functionality that git has; if more functionality is required it is always possible to use the Terminal within RStudio to give git command line commands to achieve what is desired. The level of use you require will differ depending on the goals you have with git. There are different workflows depending on your needs and the level of collaboration or product stability you require. For most academics there are often experimentation phases, at some stage there is need for collaboration and collaborative working, and more occasionally there is a requirement for a strong level of permanence and stability. Each of these represent different workflows.</p>
+</section>
+<section id="connecting-git-to-github" class="level2">
+<h2 class="anchored" data-anchor-id="connecting-git-to-github">Connecting Git to GitHub</h2>
+<p>Git can function on its own on your local computer as a versioning system to keep track of changes you make to your documents, both saving versions and keeping a log of the changes. However, almost always it is used in conjunction with an online server where you make changes in your <em>local</em> copy of the files and then <em>push</em> those changes to a <em>remote</em> online server somewhere that keeps a version of the files. This allows a version to be made publicly available and it allows multiple collaboartors to work on the same (or multiple) versions of a repository. Clearly one of the challenges that git is designed to overcome is to keep track of the changes multiple people make in multiple copies of their local files and keep them synced to the <em>main</em> repository. The most popular, but not the only, online server that provides this service is GitHub (GitLab and Bitbucket are other popular alternatives).</p>
+<section id="personal-access-tokens" class="level3">
+<h3 class="anchored" data-anchor-id="personal-access-tokens">Personal Access Tokens</h3>
+<p>Recently GitHub increased their security protocols and now in order to be able to interact with your GitHub a count you need to have a thing called a Personal Access Token that serves as a credential letting GitHub know that you are who you say your are. These replaced passwords as a more secure access method. If you go to the Settings in your GitHub page accessed via the account menu at the top right. Once in Settings scroll to the bottom where you can see Developer Settings.</p>
+<div id="fig-settings" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-settings-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/GitHubAccountMenu.png" class="img-fluid figure-img" alt="GitHub Account Drop Down Menu" width="250"></p>
+<figcaption>GitHub Account Drop Down Menu</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/GitHubSettingsMenu.png" class="img-fluid figure-img" alt="GitHub Settings Drop Down Menu" width="250"></p>
+<figcaption>GitHub Settings Drop Down Menu</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-settings-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Settings Menus
+</figcaption>
+</figure>
+</div>
+<p>Developer Settings will show you a few options select Personal access tokens and Tokens (classic) and click on Generate new token.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/PersonalAccessTokensPage.png" class="img-fluid figure-img" alt="Personal Access Tokens Page"></p>
+<figcaption>Personal Access Tokens Page</figcaption>
+</figure>
+</div>
+<p>You will be asked to give an expiration date for your Personal Access Token, this is giving you a time when you will need to update this, in essence it is a bit plike providing a date for when you need to change your password. If you are not concerned about security you can choose no expiration date or you can choose custom and put somethign for a year or so in advance. If security is a strong concern then you should get used to changing this regularly.</p>
+<p>When it gives the options select “repo”, “user”, and “workflow”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Scopes1.png" class="img-fluid figure-img"></p>
+<figcaption>Scopes repo and workflow</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Scopes2.png" class="img-fluid figure-img" alt="Scopes user"></p>
+<figcaption>Scopes user</figcaption>
+</figure>
+</div>
+<p>It will create a token like this:</p>
+<p>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</p>
+<p>Then you should copy it and in the R console install the gitcreds package.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(gitcreds)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>Once you have that installed you can add the line</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>it will ask you to enter the token and you can paste your token into the console when it asks you to “Enter password or token:”</p>
+<p>You should now be set up for working with GitHub, using the <em>push</em> and <em>pull</em> commands.</p>
+</section>
+</section>
+<section id="joining-github-and-local-git" class="level2">
+<h2 class="anchored" data-anchor-id="joining-github-and-local-git">Joining GitHub and local Git</h2>
+<p>The first thing you need to do is to set up a repository. You can do this in two ways you can create a new repository in GitHub and import it to your local machine. The alternative is to create a local repository and send it to GitHub. The former is the easier method and it is the better one to get used to as you will use that method if you are downloading other people’s repositories to collaborate or use their code.</p>
+<section id="making-a-new-repository-on-github" class="level3">
+<h3 class="anchored" data-anchor-id="making-a-new-repository-on-github">Making a new repository on GitHub</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/NewRepo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Where to create a new repository" width="251"></p>
+<figcaption>Where to create a new repository</figcaption>
+</figure>
+</div>
+<p>That will take you on to this page.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CreateANewRepository.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Create a new repository" width="471"></p>
+<figcaption>Create a new repository</figcaption>
+</figure>
+</div>
+<p>Give the repository a name, and a description. Decide whther tyou want to make it public or private—you can change this in the future. Add a README file. in Add .gitignore there are a number of templates that can be used to ignore common files you want to saty in your local repository, but do not upload to the GitHub repository; as I use R a lot I tend to use the R template, it is fine to choose no template though. You can also Choose a license. Initially it is safe to leave this as none, but you may want to inform yourself about the various licenses GitHub makes available. These are the classic software licenses, but they can pertain to open science documents, scientific code, and data too. The new repository will be created a show a page like this</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/TestRepositoryFrontPage.png" class="img-fluid figure-img" alt="A GitHub Repository Front Page"></p>
+<figcaption>A GitHub Repository Front Page</figcaption>
+</figure>
+</div>
+<p>If you press the code button and select the copy button it will copy the necessary URL to the clipboard.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CopyTheRepoURL.png" class="img-fluid figure-img" alt="Where to copy the repo URL"></p>
+<figcaption>Where to copy the repo URL</figcaption>
+</figure>
+</div>
+</section>
+<section id="make-a-local-copy-of-the-repository" class="level3">
+<h3 class="anchored" data-anchor-id="make-a-local-copy-of-the-repository">Make a local copy of the repository</h3>
+<p>The next step is to make a copy of the repository on your local computer in the directory that you wish to use.</p>
+<p>Within RStudio go to the File menu and select New Project… this opens the New Project Wizard. Selct Version Control.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/NewProjectVersionControl.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="New Project Wizard" width="350"></p>
+<figcaption>New Project Wizard</figcaption>
+</figure>
+</div>
+<p>You are then given the option of two types of version control Subversion and Git. We choose Git.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/NewProjectVersionControlGit.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="350"></p>
+<figcaption>New Project Wizard Git Option</figcaption>
+</figure>
+</div>
+<p>The last page in this process gives the place to paste in the URL you copied from GitHub</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/NewProjectVersionControlURL.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="New Project GitHub URL" width="350"></p>
+<figcaption>New Project GitHub URL</figcaption>
+</figure>
+</div>
+<p>The process should then conclude by downloading the repository into the folder/directory that you have requested. You should then have a repository with Git already working and you should be able to commit changes to Git and push and pull then to GitHub. Your local repo is simply a folder/directory in your file, if you wish you can just delete as you would any folder, and start again by doing the process above.</p>
+<p>To check if it is working you can make a change or add a file and commit it by pressing Commit button in the Git pane. You then select the staged button next to the altered file and add a Commit message—preferably something meaningful. Then hit the Commit button. That updates the changes to the local Git. You will also want to keep things synced with GitHub the remote server, to do this you need to do an additional stage of pushing the changes to GitHub, unsurprisingly, you do this by pressing the Push button in the Git pane.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
