@@ -155,7 +155,7 @@ it will ask you to enter the token and you can paste your token into the console
 
 You should now be set up for working with GitHub, using the *push* and *pull* commands.
 
-## Git Workflows
+## Joining GitHub and local Git
 
 The first thing you need to do is to set up a repository. You can do this in two ways you can create a new repository in GitHub and import it to your local machine. The alternative is to create a local repository and send it to GitHub. The former is the easier method and it is the better one to get used to as you will use that method if you are downloading other people's repositories to collaborate or use their code.
 
@@ -193,12 +193,4 @@ The last page in this process gives the place to paste in the URL you copied fro
 
 The process should then conclude by downloading the repository into the folder/directory that you have requested. You should then have a repository with Git already working and you should be able to commit changes to Git and push and pull then to GitHub. Your local repo is simply a folder/directory in your file, if you wish you can just delete as you would any folder, and start again by doing the process above.
 
-### The most basic workflow
-
-This is the workflow that should only be used for solo experimentation phases it is frowned upon, and Jenny Bryan recommends going straight to collaborative workflows as it is in that setting that the most benefit is seen from the extra learning required in the use of Git and Github. However, following this talk by Colin Gillespie—[**Getting the Most Out of Git - posit::conf(2023)**](https://youtu.be/RwLxCk6bDnY?si=IZUIazkIjsuoPsfi)**—**I will recommend this basic workflow in a small number of circumstances and it offers a nice stepping stone to more complex workflows.
-
-Following Colin Gillespie's advice the situations in which the basic workflow or "standard process" is suitable is when you have code or documents that do not have importance for many people other than yourself, for example, when you have to produce one off code for slides, or when you are just at the start of a project.
-
-One of the most important things that Git brings to version control are the branches and this standard process or workflow ignores branches—we will cover them soon. For the moment, we can largely ignore them except to be aware that all git repositories or repos have at least one branch—or perhaps to take the analogy to its conclusion the central trunk, nowadays, that is known as the **main** branch. This is the branch that keeps track of all the changes that you make and represents the current canonical version of your code or document, and it contains a historical list of all the changes that have happened to your code and documents over time.
-
-In the most basic workflow you just keep this branch and commit and push to it.
+To check if it is working you can make a change or add a file and commit it by pressing Commit button in the Git pane. You then select the staged button next to the altered file and add a Commit message—preferably something meaningful. Then hit the Commit button.

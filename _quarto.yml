@@ -47,6 +47,4 @@ format:
     theme:
       - cerulean
       - custom.scss
-  pdf:
-    documentclass: scrreprt
 editor: visual
