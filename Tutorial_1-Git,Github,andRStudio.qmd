@@ -109,7 +109,7 @@ Git can function on its own on your local computer as a versioning system to kee
 
 ### Personal Access Tokens
 
-Recently GitHub increased their security protocols and now in order to be able to interact with your GitHub a count you need to have a thing called a Personal Access Token that serves as a credential letting GitHub know that you are who you say your are. These replaced passwords as a more secure access method. If you go to the Settings in your GitHub page accessed via the account menu at the top right (\@fig-GitHubAccount). Once in Settings scroll to the bottom where you can see Developer Settings (\@fig-GitHubSettingsMenu).
+Recently GitHub increased their security protocols and now in order to be able to interact with your GitHub a count you need to have a thing called a Personal Access Token that serves as a credential letting GitHub know that you are who you say your are. These replaced passwords as a more secure access method. If you go to the Settings in your GitHub page accessed via the account menu at the top right ( \@fig-GitHubAccount ). Once in Settings scroll to the bottom where you can see Developer Settings ( \@fig-GitHubSettingsMenu ).
 
 ::: {#fig-settings layout-ncol="2"}
 ![GitHub Account Drop Down Menu](images/GitHubAccountMenu.png){#fig-GitHubAccount fig-alt="GitHub Account Drop Down Menu" width="250"}
