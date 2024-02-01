@@ -109,7 +109,7 @@ Git can function on its own on your local computer as a versioning system to kee
 
 ### Personal Access Tokens
 
-Recently GitHub increased their security protocols and now in order to be able to interact with your GitHub a count you need to have a thing called a Personal Access Token that serves as a credential letting GitHub know that you are who you say your are. These replaced passwords as a more secure access method. If you go to the Settings in your GitHub page accessed via the account menu at the top right (#fig-GitHubAccount). Once in Settings scroll to the bottom where you can see Developer Settings (#fig-GitHubSettingsMenu).
+Recently GitHub increased their security protocols and now in order to be able to interact with your GitHub a count you need to have a thing called a Personal Access Token that serves as a credential letting GitHub know that you are who you say your are. These replaced passwords as a more secure access method. If you go to the Settings in your GitHub page accessed via the account menu at the top right (\@fig-GitHubAccount). Once in Settings scroll to the bottom where you can see Developer Settings (\@fig-GitHubSettingsMenu).
 
 ::: {#fig-settings layout-ncol="2"}
 ![GitHub Account Drop Down Menu](images/GitHubAccountMenu.png){#fig-GitHubAccount fig-alt="GitHub Account Drop Down Menu" width="250"}
@@ -119,13 +119,13 @@ Recently GitHub increased their security protocols and now in order to be able t
 Settings Menus
 :::
 
-Developer Settings will show you a few options select Personal access tokens and Tokens (classic) and click on Generate new token (#fig-PersonalAccessTokensPage).
+Developer Settings will show you a few options select Personal access tokens and Tokens (classic) and click on Generate new token (\@fig-PersonalAccessTokensPage).
 
 ![Personal Access Tokens Page](images/PersonalAccessTokensPage.png){#fig-PersonalAccessTokensPage fig-alt="Personal Access Tokens Page"}
 
 You will be asked to give an expiration date for your Personal Access Token, this is giving you a time when you will need to update this, in essence it is a bit plike providing a date for when you need to change your password. If you are not concerned about security you can choose no expiration date or you can choose custom and put somethign for a year or so in advance. If security is a strong concern then you should get used to changing this regularly.
 
-When it gives the options select “repo”, “user”, and “workflow” (#fig-Scopes1, #fig-Scopesuser).
+When it gives the options select “repo”, “user”, and “workflow” (\@fig-Scopes1, \@fig-Scopesuser).
 
 ![Scopes repo and workflow](images/Scopes1.png){#fig-Scopes1}
 
@@ -161,19 +161,19 @@ The first thing you need to do is to set up a repository. You can do this in two
 
 ### Making a new repository on GitHub
 
-Click the big green button to create a new repository (#fig-NewRepo).
+Click the big green button to create a new repository (\@fig-NewRepo).
 
 ![Where to create a new repository](images/NewRepo.png){#fig-NewRepo fig-alt="Where to create a new repository" fig-align="center" width="251"}
 
-That will take you on to this page (#fig-CreateANewRepository).
+That will take you on to this page (\@fig-CreateANewRepository).
 
 ![Create a new repository](images/CreateANewRepository.png){#fig-CreateANewRepository fig-alt="Create a new repository" fig-align="center" width="471"}
 
-Give the repository a name, and a description. Decide whther tyou want to make it public or private—you can change this in the future. Add a README file. in Add .gitignore there are a number of templates that can be used to ignore common files you want to saty in your local repository, but do not upload to the GitHub repository; as I use R a lot I tend to use the R template, it is fine to choose no template though. You can also Choose a license. Initially it is safe to leave this as none, but you may want to inform yourself about the various licenses GitHub makes available. These are the classic software licenses, but they can pertain to open science documents, scientific code, and data too. The new repository will be created a show a page like the one in #fig-TestRepositoryFrontPage.
+Give the repository a name, and a description. Decide whther tyou want to make it public or private—you can change this in the future. Add a README file. in Add .gitignore there are a number of templates that can be used to ignore common files you want to saty in your local repository, but do not upload to the GitHub repository; as I use R a lot I tend to use the R template, it is fine to choose no template though. You can also Choose a license. Initially it is safe to leave this as none, but you may want to inform yourself about the various licenses GitHub makes available. These are the classic software licenses, but they can pertain to open science documents, scientific code, and data too. The new repository will be created a show a page like the one in \@fig-TestRepositoryFrontPage.
 
 ![A GitHub Repository Front Page](images/TestRepositoryFrontPage.png){#fig-TestRepositoryFrontPage fig-alt="A GitHub Repository Front Page"}
 
-If you press the code button and select the copy button it will copy the necessary URL to the clipboard (#fig-CopyTheRepoURL).
+If you press the code button and select the copy button it will copy the necessary URL to the clipboard (\@fig-CopyTheRepoURL).
 
 ![Where to copy the repo URL](images/CopyTheRepoURL.png){#fig-CopyTheRepoURL fig-alt="Where to copy the repo URL"}
 
@@ -181,15 +181,15 @@ If you press the code button and select the copy button it will copy the necessa
 
 The next step is to make a copy of the repository on your local computer in the directory that you wish to use.
 
-Within RStudio go to the File menu and select New Project... this opens the New Project Wizard. Selct Version Control (#fig-NewProjectWizard).
+Within RStudio go to the File menu and select New Project... this opens the New Project Wizard. Selct Version Control (\@fig-NewProjectWizard).
 
 ![New Project Wizard](images/NewProjectVersionControl.png){#fig-NewProjectWizard fig-alt="New Project Wizard" fig-align="center" width="350"}
 
-You are then given the option of two types of version control Subversion and Git. We choose Git (#fig-NewProjectVersionControlGit).
+You are then given the option of two types of version control Subversion and Git. We choose Git (\@fig-NewProjectVersionControlGit).
 
 ![New Project Wizard Git Option](images/NewProjectVersionControlGit.png){#fig-NewProjectVersionControlGit fig-align="center" width="350"}
 
-The last page in this process gives the place to paste in the URL you copied from GitHub (#fig-NewProjectGitHubURL).
+The last page in this process gives the place to paste in the URL you copied from GitHub (\@fig-NewProjectGitHubURL).
 
 ![New Project GitHub URL](images/NewProjectVersionControlURL.png){#fig-NewProjectGitHubURL fig-alt="New Project GitHub URL" fig-align="center" width="350"}
 
