@@ -322,7 +322,7 @@ Figure&nbsp;2: Mac RStudio Global Options Version Control Dialog Box
 <p>Git can function on its own on your local computer as a versioning system to keep track of changes you make to your documents, both saving versions and keeping a log of the changes. However, almost always it is used in conjunction with an online server where you make changes in your <em>local</em> copy of the files and then <em>push</em> those changes to a <em>remote</em> online server somewhere that keeps a version of the files. This allows a version to be made publicly available and it allows multiple collaboartors to work on the same (or multiple) versions of a repository. Clearly one of the challenges that Git is designed to overcome is to keep track of the changes multiple people make in multiple copies of their local files and keep them synced to the <em>main</em> repository. The most popular, but not the only, online server that provides this service is GitHub (GitLab and Bitbucket are other popular alternatives).</p>
 <section id="personal-access-tokens" class="level3">
 <h3 class="anchored" data-anchor-id="personal-access-tokens">Personal Access Tokens</h3>
-<p>Recently GitHub increased their security protocols and now in order to be able to interact with your GitHub a count you need to have a thing called a Personal Access Token that serves as a credential letting GitHub know that you are who you say your are. These replaced passwords as a more secure access method. If you go to the Settings in your GitHub page accessed via the account menu at the top right (#fig-GitHubAccount). Once in Settings scroll to the bottom where you can see Developer Settings (#fig-GitHubSettingsMenu).</p>
+<p>Recently GitHub increased their security protocols and now in order to be able to interact with your GitHub a count you need to have a thing called a Personal Access Token that serves as a credential letting GitHub know that you are who you say your are. These replaced passwords as a more secure access method. If you go to the Settings in your GitHub page accessed via the account menu at the top right (@fig-GitHubAccount). Once in Settings scroll to the bottom where you can see Developer Settings (@fig-GitHubSettingsMenu).</p>
 <div id="fig-settings" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-settings-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -358,7 +358,7 @@ Figure&nbsp;3: Settings Menus
 </figcaption>
 </figure>
 </div>
-<p>Developer Settings will show you a few options select Personal access tokens and Tokens (classic) and click on Generate new token (#fig-PersonalAccessTokensPage).</p>
+<p>Developer Settings will show you a few options select Personal access tokens and Tokens (classic) and click on Generate new token (@fig-PersonalAccessTokensPage).</p>
 <div id="fig-PersonalAccessTokensPage" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Personal Access Tokens Page">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-PersonalAccessTokensPage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -370,7 +370,7 @@ Figure&nbsp;4: Personal Access Tokens Page
 </figure>
 </div>
 <p>You will be asked to give an expiration date for your Personal Access Token, this is giving you a time when you will need to update this, in essence it is a bit plike providing a date for when you need to change your password. If you are not concerned about security you can choose no expiration date or you can choose custom and put somethign for a year or so in advance. If security is a strong concern then you should get used to changing this regularly.</p>
-<p>When it gives the options select “repo”, “user”, and “workflow” (#fig-Scopes1, #fig-Scopesuser).</p>
+<p>When it gives the options select “repo”, “user”, and “workflow” (@fig-Scopes1, @fig-Scopesuser).</p>
 <div id="fig-Scopes1" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-Scopes1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -410,7 +410,7 @@ Figure&nbsp;6: Scopes user
 <p>The first thing you need to do is to set up a repository. You can do this in two ways you can create a new repository in GitHub and import it to your local machine. The alternative is to create a local repository and send it to GitHub. The former is the easier method and it is the better one to get used to as you will use that method if you are downloading other people’s repositories to collaborate or use their code.</p>
 <section id="making-a-new-repository-on-github" class="level3">
 <h3 class="anchored" data-anchor-id="making-a-new-repository-on-github">Making a new repository on GitHub</h3>
-<p>Click the big green button to create a new repository (#fig-NewRepo).</p>
+<p>Click the big green button to create a new repository (@fig-NewRepo).</p>
 <div id="fig-NewRepo" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Where to create a new repository" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-NewRepo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -421,7 +421,7 @@ Figure&nbsp;7: Where to create a new repository
 </figcaption>
 </figure>
 </div>
-<p>That will take you on to this page (#fig-CreateANewRepository).</p>
+<p>That will take you on to this page (@fig-CreateANewRepository).</p>
 <div id="fig-CreateANewRepository" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Create a new repository" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-CreateANewRepository-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -432,7 +432,7 @@ Figure&nbsp;8: Create a new repository
 </figcaption>
 </figure>
 </div>
-<p>Give the repository a name, and a description. Decide whther tyou want to make it public or private—you can change this in the future. Add a README file. in Add .gitignore there are a number of templates that can be used to ignore common files you want to saty in your local repository, but do not upload to the GitHub repository; as I use R a lot I tend to use the R template, it is fine to choose no template though. You can also Choose a license. Initially it is safe to leave this as none, but you may want to inform yourself about the various licenses GitHub makes available. These are the classic software licenses, but they can pertain to open science documents, scientific code, and data too. The new repository will be created a show a page like the one in #fig-TestRepositoryFrontPage.</p>
+<p>Give the repository a name, and a description. Decide whther tyou want to make it public or private—you can change this in the future. Add a README file. in Add .gitignore there are a number of templates that can be used to ignore common files you want to saty in your local repository, but do not upload to the GitHub repository; as I use R a lot I tend to use the R template, it is fine to choose no template though. You can also Choose a license. Initially it is safe to leave this as none, but you may want to inform yourself about the various licenses GitHub makes available. These are the classic software licenses, but they can pertain to open science documents, scientific code, and data too. The new repository will be created a show a page like the one in @fig-TestRepositoryFrontPage.</p>
 <div id="fig-TestRepositoryFrontPage" class="quarto-figure quarto-figure-center quarto-float anchored" alt="A GitHub Repository Front Page">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-TestRepositoryFrontPage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -443,7 +443,7 @@ Figure&nbsp;9: A GitHub Repository Front Page
 </figcaption>
 </figure>
 </div>
-<p>If you press the code button and select the copy button it will copy the necessary URL to the clipboard (#fig-CopyTheRepoURL).</p>
+<p>If you press the code button and select the copy button it will copy the necessary URL to the clipboard (@fig-CopyTheRepoURL).</p>
 <div id="fig-CopyTheRepoURL" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Where to copy the repo URL">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-CopyTheRepoURL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -458,7 +458,7 @@ Figure&nbsp;10: Where to copy the repo URL
 <section id="make-a-local-copy-of-the-repository" class="level3">
 <h3 class="anchored" data-anchor-id="make-a-local-copy-of-the-repository">Make a local copy of the repository</h3>
 <p>The next step is to make a copy of the repository on your local computer in the directory that you wish to use.</p>
-<p>Within RStudio go to the File menu and select New Project… this opens the New Project Wizard. Selct Version Control (#fig-NewProjectWizard).</p>
+<p>Within RStudio go to the File menu and select New Project… this opens the New Project Wizard. Selct Version Control (@fig-NewProjectWizard).</p>
 <div id="fig-NewProjectWizard" class="quarto-figure quarto-figure-center quarto-float anchored" alt="New Project Wizard" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-NewProjectWizard-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -469,7 +469,7 @@ Figure&nbsp;11: New Project Wizard
 </figcaption>
 </figure>
 </div>
-<p>You are then given the option of two types of version control Subversion and Git. We choose Git (#fig-NewProjectVersionControlGit).</p>
+<p>You are then given the option of two types of version control Subversion and Git. We choose Git (@fig-NewProjectVersionControlGit).</p>
 <div id="fig-NewProjectVersionControlGit" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-NewProjectVersionControlGit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -480,7 +480,7 @@ Figure&nbsp;12: New Project Wizard Git Option
 </figcaption>
 </figure>
 </div>
-<p>The last page in this process gives the place to paste in the URL you copied from GitHub (#fig-NewProjectGitHubURL).</p>
+<p>The last page in this process gives the place to paste in the URL you copied from GitHub (@fig-NewProjectGitHubURL).</p>
 <div id="fig-NewProjectGitHubURL" class="quarto-figure quarto-figure-center quarto-float anchored" alt="New Project GitHub URL" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-NewProjectGitHubURL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
