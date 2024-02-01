@@ -37,6 +37,7 @@ website:
         menu:
           - reproducible_documents.qmd
           - github.qmd
+          - github.qmd
       - open-access_publishing.qmd
       - education.qmd
       - license.qmd
