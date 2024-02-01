@@ -74,7 +74,7 @@ Go to RStudio's Tool menu and down to Global Options. When you open that select 
 
 Make sure the "Enable version control interface for RStudio projects" button is ticked.
 
-![Mac RStudio Global Options Version Control Dialog Box](images/MacRStudioGit.png){fig-align="center" width="70%"}
+![Mac RStudio Global Options Version Control Dialog Box](images/MacRStudioGit.png){#fig-MacRStudioGit fig-align="center" width="70%"}
 
 Once the dialogue box is correct click the Apply button.
 
@@ -109,27 +109,27 @@ Git can function on its own on your local computer as a versioning system to kee
 
 ### Personal Access Tokens
 
-Recently GitHub increased their security protocols and now in order to be able to interact with your GitHub a count you need to have a thing called a Personal Access Token that serves as a credential letting GitHub know that you are who you say your are. These replaced passwords as a more secure access method. If you go to the Settings in your GitHub page accessed via the account menu at the top right. Once in Settings scroll to the bottom where you can see Developer Settings.
+Recently GitHub increased their security protocols and now in order to be able to interact with your GitHub a count you need to have a thing called a Personal Access Token that serves as a credential letting GitHub know that you are who you say your are. These replaced passwords as a more secure access method. If you go to the Settings in your GitHub page accessed via the account menu at the top right (#fig-GitHubAccount). Once in Settings scroll to the bottom where you can see Developer Settings (#fig-GitHubSettingsMenu).
 
 ::: {#fig-settings layout-ncol="2"}
-![GitHub Account Drop Down Menu](images/GitHubAccountMenu.png){#GitHubAccount fig-alt="GitHub Account Drop Down Menu" width="250"}
+![GitHub Account Drop Down Menu](images/GitHubAccountMenu.png){#fig-GitHubAccount fig-alt="GitHub Account Drop Down Menu" width="250"}
 
-![GitHub Settings Drop Down Menu](images/GitHubSettingsMenu.png){#GitHubSettingsMenu fig-alt="GitHub Settings Drop Down Menu" width="250"}
+![GitHub Settings Drop Down Menu](images/GitHubSettingsMenu.png){#fig-GitHubSettingsMenu fig-alt="GitHub Settings Drop Down Menu" width="250"}
 
 Settings Menus
 :::
 
-Developer Settings will show you a few options select Personal access tokens and Tokens (classic) and click on Generate new token.
+Developer Settings will show you a few options select Personal access tokens and Tokens (classic) and click on Generate new token (#fig-PersonalAccessTokensPage).
 
-![Personal Access Tokens Page](images/PersonalAccessTokensPage.png){fig-alt="Personal Access Tokens Page"}
+![Personal Access Tokens Page](images/PersonalAccessTokensPage.png){#fig-PersonalAccessTokensPage fig-alt="Personal Access Tokens Page"}
 
 You will be asked to give an expiration date for your Personal Access Token, this is giving you a time when you will need to update this, in essence it is a bit plike providing a date for when you need to change your password. If you are not concerned about security you can choose no expiration date or you can choose custom and put somethign for a year or so in advance. If security is a strong concern then you should get used to changing this regularly.
 
-When it gives the options select “repo”, “user”, and “workflow”
+When it gives the options select “repo”, “user”, and “workflow” (#fig-Scopes1, #fig-Scopesuser).
 
-![Scopes repo and workflow](images/Scopes1.png)
+![Scopes repo and workflow](images/Scopes1.png){#fig-Scopes1}
 
-![Scopes user](images/Scopes2.png){#Scopesuser fig-alt="Scopes user"}
+![Scopes user](images/Scopes2.png){#fig-Scopesuser fig-alt="Scopes user"}
 
 It will create a token like this:
 
@@ -155,42 +155,44 @@ it will ask you to enter the token and you can paste your token into the console
 
 You should now be set up for working with GitHub, using the *push* and *pull* commands.
 
-## Joining GitHub and local Git
+## Joining GitHub and local Git together
 
 The first thing you need to do is to set up a repository. You can do this in two ways you can create a new repository in GitHub and import it to your local machine. The alternative is to create a local repository and send it to GitHub. The former is the easier method and it is the better one to get used to as you will use that method if you are downloading other people's repositories to collaborate or use their code.
 
 ### Making a new repository on GitHub
 
-![Where to create a new repository](images/NewRepo.png){#NewRepo fig-alt="Where to create a new repository" fig-align="center" width="251"}
+Click the big green button to create a new repository (#fig-NewRepo).
 
-That will take you on to this page.
+![Where to create a new repository](images/NewRepo.png){#fig-NewRepo fig-alt="Where to create a new repository" fig-align="center" width="251"}
 
-![Create a new repository](images/CreateANewRepository.png){#CreateANewRepository fig-alt="Create a new repository" fig-align="center" width="471"}
+That will take you on to this page (#fig-CreateANewRepository).
 
-Give the repository a name, and a description. Decide whther tyou want to make it public or private—you can change this in the future. Add a README file. in Add .gitignore there are a number of templates that can be used to ignore common files you want to saty in your local repository, but do not upload to the GitHub repository; as I use R a lot I tend to use the R template, it is fine to choose no template though. You can also Choose a license. Initially it is safe to leave this as none, but you may want to inform yourself about the various licenses GitHub makes available. These are the classic software licenses, but they can pertain to open science documents, scientific code, and data too. The new repository will be created a show a page like this
+![Create a new repository](images/CreateANewRepository.png){#fig-CreateANewRepository fig-alt="Create a new repository" fig-align="center" width="471"}
 
-![A GitHub Repository Front Page](images/TestRepositoryFrontPage.png){#TestRepositoryFrontPage fig-alt="A GitHub Repository Front Page"}
+Give the repository a name, and a description. Decide whther tyou want to make it public or private—you can change this in the future. Add a README file. in Add .gitignore there are a number of templates that can be used to ignore common files you want to saty in your local repository, but do not upload to the GitHub repository; as I use R a lot I tend to use the R template, it is fine to choose no template though. You can also Choose a license. Initially it is safe to leave this as none, but you may want to inform yourself about the various licenses GitHub makes available. These are the classic software licenses, but they can pertain to open science documents, scientific code, and data too. The new repository will be created a show a page like the one in #fig-TestRepositoryFrontPage.
 
-If you press the code button and select the copy button it will copy the necessary URL to the clipboard.
+![A GitHub Repository Front Page](images/TestRepositoryFrontPage.png){#fig-TestRepositoryFrontPage fig-alt="A GitHub Repository Front Page"}
 
-![Where to copy the repo URL](images/CopyTheRepoURL.png){#CopyTheRepoURL fig-alt="Where to copy the repo URL"}
+If you press the code button and select the copy button it will copy the necessary URL to the clipboard (#fig-CopyTheRepoURL).
+
+![Where to copy the repo URL](images/CopyTheRepoURL.png){#fig-CopyTheRepoURL fig-alt="Where to copy the repo URL"}
 
 ### Make a local copy of the repository
 
 The next step is to make a copy of the repository on your local computer in the directory that you wish to use.
 
-Within RStudio go to the File menu and select New Project... this opens the New Project Wizard. Selct Version Control.
+Within RStudio go to the File menu and select New Project... this opens the New Project Wizard. Selct Version Control (#fig-NewProjectWizard).
 
-![New Project Wizard](images/NewProjectVersionControl.png){#NewProjectWizard fig-alt="New Project Wizard" fig-align="center" width="350"}
+![New Project Wizard](images/NewProjectVersionControl.png){#fig-NewProjectWizard fig-alt="New Project Wizard" fig-align="center" width="350"}
 
-You are then given the option of two types of version control Subversion and Git. We choose Git.
+You are then given the option of two types of version control Subversion and Git. We choose Git (#fig-NewProjectVersionControlGit).
 
-![New Project Wizard Git Option](images/NewProjectVersionControlGit.png){fig-align="center" width="350"}
+![New Project Wizard Git Option](images/NewProjectVersionControlGit.png){#fig-NewProjectVersionControlGit fig-align="center" width="350"}
 
-The last page in this process gives the place to paste in the URL you copied from GitHub
+The last page in this process gives the place to paste in the URL you copied from GitHub (#fig-NewProjectGitHubURL).
 
-![New Project GitHub URL](images/NewProjectVersionControlURL.png){#NewProjectGitHubURL fig-alt="New Project GitHub URL" fig-align="center" width="350"}
+![New Project GitHub URL](images/NewProjectVersionControlURL.png){#fig-NewProjectGitHubURL fig-alt="New Project GitHub URL" fig-align="center" width="350"}
 
 The process should then conclude by downloading the repository into the folder/directory that you have requested. You should then have a repository with Git already working and you should be able to commit changes to Git and push and pull then to GitHub. Your local repo is simply a folder/directory in your file, if you wish you can just delete as you would any folder, and start again by doing the process above.
 
-To check if it is working you can make a change or add a file and commit it by pressing Commit button in the Git pane. You then select the staged button next to the altered file and add a Commit message—preferably something meaningful. Then hit the Commit button. That updates the changes to the local Git. You will also want to keep things synced with GitHub the remote server, to do this you need to do an additional stage of pushing the changes to GitHub, unsurprisingly, you do this by pressing the Push button in the Git pane.
+To check if it is working you can make a change or add a file and commit it by pressing Commit button in the Git pane. You then select the staged button next to the altered file and add a Commit message—preferably something meaningful. Then hit the Commit button. That updates the changes to the local Git. You will also want to keep things synced with GitHub the remote server, to do this you need to do an additional stage of pushing the changes to GitHub, unsurprisingly, you do this by pressing the Push button in the Git pane. You should also be able to go to the GitHub wensite and check that your changes have now appeared there too.
