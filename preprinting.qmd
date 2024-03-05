@@ -1,0 +1,45 @@
+---
+title: "Preprinting"
+format: html
+editor: visual
+execute:
+  echo: false
+---
+
+# Preprinting of Articles/ Manuscripts
+
+<img src="https://i.ytimg.com/vi/2zMgY8Dx9co/maxresdefault.jpg" alt="Summary of Preprints by Science Communication Lab (available [via Youtube](https://www.youtube.com/watch?v=2zMgY8Dx9co&amp;ab_channel=ScienceCommunicationLab)" width="900" height="600"/>
+
+## What is preprinting?
+
+Article preprinting is a part of Open Access publication strategy that may be useful to share and receive feedback on findings quickly, and where Gold Open Access sharing of outputs is not feasible (see [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/)). Many publishers will allow for the author submitted manuscript version to archived in a repository, but you may consider preprinting a manuscript: a complete draft of a research paper shared prior to peer review and publication.
+
+## Why *wouldn't* I preprint my manuscript?
+
+-   **Lack of Peer Review**:   Perhaps the main criticism of preprints, and a concern reported by authors, is the absence of formal peer review. The peer review process is crucial in ensuring the quality and reliability of published research. [One may be concerned that dissemination without following this process risks sharing flawed or incomplete research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10382958/#:~:text=The%20final%20manuscript%20submitted%20to,the%20need%20for%20rapid%20dissemination.).
+
+-   **Quality Control**:   Sharing of this flawed or misguided research can lead to the spread of misinformation. Readers might not differentiate between high-quality, peer-reviewed articles and flawed preprints, particularily as more and more research becomes available through preprint repositories. [There can also be substantive changes to a manuscript through peer-review, and if not properly indexed by the preprint could lead to confusion and misguided decisions](https://doi.org/10.17085%2Fapm.23036).
+
+-   **Citation**:   [Researchers might be discouraged to cite preprints in their own work](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5912112/) due to the lack of peer review or concerns about quality, so authors might worry what's the use in sharing? Similarly if an article is featured as a preprint and peer-reviewed publication there may be concerns about properly capturing all indexing and citations of that work.
+
+-   **Early Visibility**:   Authors may also worry about valuable ideas being scooped or iterated before they have had a chance to publish peer-reviewed outputs form their research. This can lead not only to stolen work and ideas, but less impact for one's own original research.
+
+-   **Impact on Journal Submissions**:   Some publishers have policies that seem to discourage submissions previously disseminated as preprints. Researchers may worry about the implication of sharing their work as a preprint, and if this limits their future avenues for publication.
+
+## Why *would* I pre-print my manuscript?
+
+-   **Lack of Peer Review**:   Preprint sharing allows researchers to share their findings with their peers and the public more quickly that traditional publication routes. This can be a particular advantage as the peer-review process is noted to be [increasingly lengthy and frustrating to researchers](https://www.nature.com/nature-index/news/emotional-professional-cost-drawn-out-peer-review-researchers-experiences#:~:text=How%20long%20did%20it%20take,another%20journal%20before%20being%20published.). Rapid dissemination of knowledge can facilitate quicker collaboration and innovation among researchers.
+
+-   **Quality Control**: Preprint sharing allows peers to openly review and discuss work, leading to more equitable quality assurance. Preprint services such as Research Square prominently warn that results are not peer-reviewed and should be used with caution, and allow for open review from readers and journal appointed peer-reviewers, making the process more transparent.
+
+-   **Citation**:   Preprint articles can show a commitment to Open Access of research, and are usually freely accessible to anyone with an internet connection. This open access model promotes more recognition for researchers and with the ability to mint DOI's for preprints via established repositories allows these projects to be indexed and cited to recognise the work and prevent scooping of research ideas.
+
+-   **Early Visibility**:   Preprint sharing can increase recognition of researchers and their work, especially for early-career researchers as [they establish their profile and presence in a field of research](https://doi.org/10.1242%2Fbio.059310). Sharing timestamped article preprints and featuring these on a CV can help showcase work that is in the pipeline without risking research ideas being stolen by others, and importantly [provide tangible record of achievement in applications](https://jamesheathers.medium.com/why-i-love-pre-prints-9d727eeb22b8). This can allow for review and exchange with the academic community before and during the publication process, ultimately benefiting their network and research. Evidence has also shown that articles shared as a preprint are [associated with greater engagement and citation](https://www.biorxiv.org/content/biorxiv/early/2019/06/22/673665.full.pdf).
+
+-   **Impact on Journal Submission**:   While some publishers may be hesitant to received submissions shared as pre-print articles this is becoming increasingly rare. Large publishers such BMC have specifically clarified that [preprinting an article does not constitute duplicate publication](https://www.biomedcentral.com/getpublished/editorial-policies#duplicate+publication), and in fact may facilitate preprinting articles under review via Research Square.
+
+\
+
+## *Should* I preprint my manuscript?
+
+[The main advantages of preprint sharing identified by researchers](https://osf.io/preprints/socarxiv/k7reb/) are making research communication more rapid and more equitable, removing barriers in the way of innovation and application. [Researchers may worry about misinformation and premature media coverage from their work](https://osf.io/preprints/socarxiv/k7reb/), or that [preprinting carries with it the criticisms of predatory publishing: allowing the dissemination of unscrutinised work](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5912112/). Nevertheless, [responsible use of preprint sharing where authors and publishers adhere to standards of academic integrity](https://blogs.lse.ac.uk/impactofsocialsciences/2020/09/23/are-preprints-a-problem-5-ways-to-improve-the-quality-and-credibility-of-preprints/) can allow for more advantageous  and open science practice.

@@ -12,6 +12,7 @@ website:
   # - Paul Toner
   # - Tanja Gerlach
   # - Thomas Schultze-Gerlach
+  # - Martin Robinson
   # date: 06/09/2022
   favicon: images/favicon.ico
   twitter-card:
@@ -38,7 +39,10 @@ website:
           - reproducible_documents.qmd
           - github.qmd
           - Tutorial_1-Git,Github,andRStudio.qmd
-      - open-access_publishing.qmd
+      - text: Open Access Publication
+      - menu: 
+        - preprinting,qmd
+        - open-access_publishing.qmd
       - education.qmd
       - license.qmd
 csl: apa.csl
