@@ -41,8 +41,8 @@ website:
           - Tutorial_1-Git,Github,andRStudio.qmd
       - text: Open Access Publication
         menu: 
-        - preprinting.qmd
-        - open-access_publishing.qmd
+          - preprinting.qmd
+          - open-access_publishing.qmd
       - education.qmd
       - license.qmd
 csl: apa.csl
