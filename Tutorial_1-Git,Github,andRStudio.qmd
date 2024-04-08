@@ -140,7 +140,7 @@ Then you should copy it and in the R console install the gitcreds package.
 ```{r}
 #| label: installGitcreds
 #| eval: false  
-install.packages(gitcreds)
+install.packages("gitcreds")
 ```
 
 Once you have that installed you can add the line
