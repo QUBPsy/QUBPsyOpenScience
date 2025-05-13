@@ -24,7 +24,7 @@ Researchers should apply an open licence to datasets to reduce issues around amb
 
 2\. **Observe the guidelines on data deposit** 
 
-The guidelines on data deposit at Queen's University Belfast (available at [Standard Operating Procedures](https://www.qub.ac.uk/Research/Governance-ethics-and-integrity/Policies-procedures-and-guidelines/Standard-operating-procedures/)). Further support on Research Data Management is available from the [library / Open Research Team](https://libguides.qub.ac.uk/ResearchDataManagement/Introduction).  
+The guidelines on data deposit at Queen's University Belfast (available at [Standard Operating Procedures](https://libguides.qub.ac.uk/ResearchDataManagement)). Further support on Research Data Management is available from the [library / Open Research Team](https://libguides.qub.ac.uk/ResearchDataManagement/Introduction).  
 
 Key publications include: 
 
@@ -66,7 +66,7 @@ Please contact the lead author, Professor Jones ([ab.jones\@qub.ac.uk),](mailto:
 
 ## Where to get help? 
 
-Within the university, Open data is supported by the [Open Research Team](https://libguides.qub.ac.uk/openaccess/team). They can help with producing Data Management Plans, which are required by most funders, obtaining DOIs, and with getting access to the [Active Data Storage](https://libguides.qub.ac.uk/ResearchDataManagement/ActiveDataStorageUnit) (ADS) service for large datasets. If you have any questions about these aspects, get in touch with [rdm\@qub.ac.uk](mailto:rdm@qub.ac.uk).
+Within the university, Open data is supported by the [Open Research Team](https://libguides.qub.ac.uk/openaccess/team). They can help with producing Data Management Plans, which are required by most funders, obtaining DOIs, and with getting access to the [Active Data Storage](https://libguides.qub.ac.uk/ResearchDataManagement/ResearchDataStorage) (ADS) service for large datasets. If you have any questions about these aspects, get in touch with [rdm\@qub.ac.uk](mailto:rdm@qub.ac.uk).
 
 ## Where to share data? 
 
