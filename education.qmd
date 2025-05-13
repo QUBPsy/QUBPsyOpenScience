@@ -12,16 +12,6 @@ Level 2 Core Psychology -- the 'replication crisis' and open science measures in
 
 Level 3 thesis -- some supervisors encourage thesis students to pre-register projects and/or run replication studies 
 
-### MSc Psychological Science 
-
-Core Psychology -- the 'replication crisis' and open science measures in response are covered over three lecture hours as part of Conceptual Issues (typically part of assessment in exam questions) 
-
-Thesis module-- some supervisors encourage thesis students to pre-register projects and/or run replication studies 
-
-### MSc Clinical Health / Applied Developmental Psychology (PGR / DECAP? / DClin) 
-
-Research Skills -- The principles, context and practices of Open Science are thoroughly covered throughout this module (100% assessment -- pre-registration assignment) 
-
 ## Where could Open Science education be expanded / reinforced in current programmes? 
 
 ### BSc (Hons) Psychology 
@@ -31,6 +21,8 @@ Level 2 Psychological Methods -- encourage pre-registration and/or replication s
 Level 3 thesis -- encourage pre-registration and/or (conceptual) replication studies and/or meta-analyses for thesis projects; thesis marking criteria to include considerations of how/whether thesis reports demonstrate open science principles in design and reporting of thesis (e.g., transparency of evidence, steps taken to avoid HARKing, actions taken to guard against QRPs). 
 
 ### MSc Psychological Science 
+
+Core Psychology -- the 'replication crisis' and open science measures in response are covered over three lecture hours as part of Conceptual Issues (typically part of assessment in exam questions) 
 
 Methods, Design, and Analysis in Psychology -- encourage pre-registration and/or replication studies for tutorial group projects 
 
